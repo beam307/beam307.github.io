@@ -2,10 +2,10 @@ tag1:
   name: java
 
 tag2:
-  name: HTMLandCSS
+  name: HTML/CSS
 
 tag3:
-  name: JSPandSPRING
+  name: JSP/SPRING
 
 tag4:
   name: javascript
