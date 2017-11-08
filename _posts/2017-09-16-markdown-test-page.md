@@ -1,5 +1,7 @@
 ---
 layout: default
 title: "테스트중 ㅋㅋ"
-tags: 자바 자바스크립트
+tags: java
 ---
+
+아니거든요??

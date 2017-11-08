@@ -1,5 +1,5 @@
 tag1:
-  name: 자바
+  name: java
 
 tag2:
   name: HTMLandCSS
@@ -8,4 +8,4 @@ tag3:
   name: JSPandSPRING
 
 tag4:
-  name: 자바스크립트
+  name: javascript
