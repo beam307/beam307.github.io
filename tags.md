@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags
+title: Category
 permalink: /tags/
 sitemap:
   priority: 0.7
