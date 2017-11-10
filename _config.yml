@@ -1,13 +1,13 @@
-title: kakao 기술 블로그
-email: opensource@kakaocorp.com
+title: 차니의 기술 블로그
+email: beam307@naver.com
 description: |
-  Connect Everything 새로운 연결, 새로운 세상.
-  연결의 혁신으로 세상은 더욱 가깝고 새로워진다고 카카오는 믿습니다.
+  JAVA, JSP, SPRING, JSP ,NODE_JS
+  연말을 연말답게 보내고 싶다면 개발자가 되지 말았어야지!
 baseurl: ''
 url: 'http://tech.kakao.com'
-timezone: Asia/Seoul 
+timezone: Asia/Seoul
 
-repository: kakao/kakao.github.io
+repository: beam307/beam307.github.io
 
 permalink: /:year/:month/:day/:title/
 
@@ -50,19 +50,19 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 keep_files: [assets, files]
 github: [metadata]
 # iolo's custom
-author: opensource@kakaocorp.com
+author: beam307@naver.com
 image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
 #asset_url: //t1.daumcdn.net/osa/blog/assets
-google_analytics:
-  ua: 'UA-72007721-1'
-facebook:
-  app_id: '1204347326263800'
-  username: nkakao
-twitter:
-  username: kakaodev
-google_plus:
-  username: kakaodev
-github_url:
-  username: kakao
+#google_analytics:
+#  ua: 'UA-72007721-1'
+#facebook:
+#  app_id: '1204347326263800'
+#  username: nkakao
+#twitter:
+#  username: kakaodev
+#google_plus:
+#  username: kakaodev
+#github_url:
+#  username: kakao
