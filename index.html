@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: home
 ---
-<ul>
-	{% for post in site.posts %}
-	<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
-	{% endfor %}
+<ul id="post-list">
+    {% for post in paginator.posts %}
+        {% include item.html %}
+    {% endfor %}
 </ul>
+{% include pagination.html %}

@@ -9,4 +9,4 @@ Before changes can be accepted a Contributor Licensing Agreement for  [Individua
 
 ### For Koreans
 
-If you are Korean, please e-mail at oss@kakaocorp.com for agreeing to the our privacy policy. Then we will send you a CLA copy.
+If you are Korean, please e-mail at opensource@kakaocorp.com for agreeing to the our privacy policy. Then we will send you a CLA copy.

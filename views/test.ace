@@ -1,7 +1,0 @@
-= content main
-  form action=/test/submit method=post
-    input name=aa value="{{.form.Aa}}"
-    input name=bb value="{{.form.Bb}}"
-    input name=cc value="{{.form.Cc}}"
-    
-    input type=submit
