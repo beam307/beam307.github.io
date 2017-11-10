@@ -1,0 +1,17 @@
+.navbar-brand {
+    font-weight: bolder;
+}
+
+.tokenfield .token .close {
+    color: black;
+}
+
+input[type=text][readonly], [type=textarea][readonly] {
+  background: none;
+  border: none;
+}
+
+.description {
+  text-overflow: ellipsis;
+  white-space: pre;
+}
