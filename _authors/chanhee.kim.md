@@ -1,5 +1,5 @@
 ---
-name: ryan
-title: 라이언
+name: chanhee.kim
+title: 김찬희
 image: /files/authors/ryan.jpg
 ---
