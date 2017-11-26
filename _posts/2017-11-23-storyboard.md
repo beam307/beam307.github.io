@@ -8,10 +8,10 @@ image: /files/covers/blog.jpg
 ---
 
 ### 메인페이지
-![main](../assets/images/main.PNG)
+![main](../assets/images/main.png)
 ### 마이페이지
-![mypage](../assets/images/mypage.PNG)
+![mypage](../assets/images/mypage.png)
 ### 리스트페이지
-![list](../assets/images/listpage.PNG)
+![list](../assets/images/listpage.png)
 ### 상세페이지
-![detailpage](../assets/images/mypage.PNG)
+![detailpage](../assets/images/mypage.png)
