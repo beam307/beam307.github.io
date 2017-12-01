@@ -8,10 +8,10 @@ image: /files/covers/blog.jpg
 ---
 
 ### 메인페이지
-![main](https://github.com/beam307/beam307.github.io/tree/master/assets/images/main.png)
+<img src="{{ site.baseurl }}/assets/images/main.PNG" alt="main">
 ### 마이페이지
-![mypage](https://github.com/beam307/beam307.github.io/tree/master/assets/images/mypage.png)
+<img src="{{ site.baseurl }}/assets/images/mypage.PNG" alt="main">
 ### 리스트페이지
-![list](https://github.com/beam307/beam307.github.io/tree/master/assets/images/listpage.png)
+<img src="{{ site.baseurl }}/assets/images/listpage.PNG" alt="main">
 ### 상세페이지
-![detailpage](https://github.com/beam307/beam307.github.io/tree/master/assets/images/mypage.png)
+<img src="{{ site.baseurl }}/assets/images/detailpage.PNG" alt="main">
