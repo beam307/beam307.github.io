@@ -9,7 +9,7 @@ image: /files/covers/blog.jpg
 
 #### 애너테이션정리
 
-``` java
+```
 - @Controller : 스프링MVC의 컨트롤 객체를 가르키는 애너테이션(클래스)
 - @RequestMapping : 특정URI에 매칭되는 클래스나 메소드를 명시(클래스,메서드)
 - @RequestParam : request에서 특정한 파라미터 값을 찾아낼때 사용(파라미터)
