@@ -16,6 +16,8 @@ image: /files/covers/blog.jpg
 page : 포함할 JSP페이지 경로 지정 <br>
 flush : 지정한 JSP페이지 실행하기전에 출력버퍼를 플러시할지 여부 지정 true이면 출력버퍼를 플러시하고 false 는 플러시하지않는다. 기본값은 false 이다.
 
+주로 화면 레이아웃 구성할때 주로 사용된다. (header, footer, side 등)
+
 ---
 
 #### 2. include 디렉티브
