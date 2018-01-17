@@ -10,7 +10,7 @@ image: /files/covers/blog.jpg
 #### 1. <jsp:include> 액션태그
 
 ```
-<jsp:inlude page="페이지" flush"true" />
+<jsp:inlude page="페이지" flush="true" />
 ```
 
 page : 포함할 JSP페이지 경로 지정 <br>
