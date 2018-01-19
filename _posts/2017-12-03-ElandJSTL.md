@@ -35,11 +35,12 @@ JSTL은 Jsp Standard Tag Library 의 약자로 표준 태그라이브러리 이�
     - initParam : 초기 파라미터 조회
 <br><br>
 EL안에서는 비교연산자, 논리 연산자 , 수치 연산자, boolean, empty(null 체크) 등을 사용 가능하다
+
 ---
 
 #### 2. JSTL
 
- - JSTL이 제공하는 태그 정리
+ - JSTL이 제공하는 태그 정리 <br>
    | 라이브러리 | 주요기능 | 접두어 | URI |
    |:---:|:---:|:---:|:---:|
    |코어|변수지원, 흐름제어, URL처리|prefix : c| http://java.sun.com/jsp/jstl/core |
@@ -49,12 +50,12 @@ EL안에서는 비교연산자, 논리 연산자 , 수치 연산자, boolean, em
    |데이터베이스|SQL|prefix : sql| http://java.sun.com/jsp/jstl/sql |
 
  - 코어 태그
-   - <c:set var="num" value="100"> : 변수 설정
-   - <c:if test="조건식" /> : 단일 if문
-   - <c:choose> <c:when> <c:otherwise> : if, else if, else 문
-   - <c:foreach var="변수" items="배열,컬렉션" /> : 반복문
-   - <c:out value="출력값"> : 출력
-   - <c:url value="URL"> <c:param name="이름" value="값" /> : URL 생성해주며 파라미터 전달이 가능하다
+  - <c:set var="num" value="100"> : 변수 설정
+  - <c:if test="조건식" /> : 단일 if문
+  - <c:choose> <c:when> <c:otherwise> : if, else if, else 문
+  - <c:foreach var="변수" items="배열,컬렉션" /> : 반복문
+  - <c:out value="출력값"> : 출력
+  - <c:url value="URL"> <c:param name="이름" value="값" /> : URL 생성해주며 파라미터 전달이 가능하다
 
    <br>
 
