@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '네이버 로그인 구현'
+title: '[spring] 네이버 로그인 구현'
 author: chanhee.kim
 date: 2017-11-28 17:37
 tags: [project]

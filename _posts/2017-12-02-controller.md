@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Spring 기본적인 Controller 생성'
+title: '[spring] 기본적인 Controller 연습'
 author: chanhee.kim
 date: 2017-12-02 13:07
 tags: [jsp-spring]
