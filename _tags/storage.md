@@ -1,4 +1,4 @@
 ---
-name: storage
-title: 'Storage'
+name: etc
+title: 'etc'
 ---
