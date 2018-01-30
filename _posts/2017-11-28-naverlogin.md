@@ -11,7 +11,7 @@ image: /files/covers/blog.jpg
 
 <img src="{{ site.baseurl }}/assets/images/developer.PNG" alt="naverlogin">
 
-1. 네이버 Developers에서 서비스 URL, Callback URL 설정
+###### 1. 네이버 Developers에서 서비스 URL, Callback URL 설정
 
 ```
 <dependency>
@@ -33,7 +33,7 @@ image: /files/covers/blog.jpg
 </dependency>
 ```
 
-2. pom.xml 추가
+###### 2. pom.xml 추가
 
 
 ``` java
@@ -67,7 +67,7 @@ image: /files/covers/blog.jpg
 
 ```
 
-3. LoginController.java 설정
+###### 3. LoginController.java 설정
 
 
 ``` java
@@ -180,7 +180,7 @@ public class NaverLoginBO {
 }
 ```
 
-4. 네이버로그인 관련 설정 파일 만들기
+###### 4. 네이버로그인 관련 설정 파일 만들기
 
 ```java
 public class JsonParser {
@@ -210,7 +210,7 @@ public class JsonParser {
 }
 ```
 
-5. JsonParser.java 만들기 (넘어온 Json파일 USER객체에 담기)
+###### 5. JsonParser.java 만들기 (넘어온 Json파일 USER객체에 담기)
 
 ```java
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -229,7 +229,7 @@ public class JsonParser {
 </html>
 ```
 
-6. naverLogin.jsp 만들기 (간단히 https://nid.naver.com/oauth2.0/authorize 로 이동하게 함 )
+###### 6. naverLogin.jsp 만들기 (간단히 https://nid.naver.com/oauth2.0/authorize 로 이동하게 함 )
 
 ```java
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -246,7 +246,7 @@ public class JsonParser {
 
 </html>
 ```
-7. callback.jsp 만들기 (콜백 후 메인으로 가기)
+###### 7. callback.jsp 만들기 (콜백 후 메인으로 가기)
 
 ---
 
