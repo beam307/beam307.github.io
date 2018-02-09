@@ -3,7 +3,7 @@ layout: post
 title: '[spring] 스프링 MVC 개념'
 author: chanhee.kim
 date: 2018-01-02 10:54
-tags: [java]
+tags: [spring]
 image: /files/covers/blog.jpg
 ---
 
