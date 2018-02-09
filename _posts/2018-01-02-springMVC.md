@@ -36,7 +36,7 @@ public interface UserDAO {
 ```
 
 - DAO를 interface로 만드는 이유는 DB마다 공통된 인터페이스를 적용하고 유지 보수를 쉽게 하기 위해서이다.
-- **DAO는 단일 데이터를 접근/갱신만 처리를 한다.(CRUD)**
+- ###### DAO는 단일 데이터를 접근/갱신만 처리를 한다.(CRUD)
 
 ```java
 @Repository
@@ -77,7 +77,7 @@ public class UserServiceImpl implements UserService {
 ```
 
 - @Inject는 JSR에 실려있는 자바 기존의 어노테이션입니다. 반면 @Autowired의 경우에는 스프링에서 등장한 어노테이션입니다.
-- **Service 는 여러 DAO를 사용자에 맞게 가공한다. 즉 Service 는 트랜잭션 단위이다.**
+- ###### Service 는 여러 DAO를 사용자에 맞게 가공한다. 즉 Service 는 트랜잭션 단위이다.
 - 결국 dao와 service는 비슷해보이지만 유지보수등을 편하기 위해 쓴다.
 
 ```java
