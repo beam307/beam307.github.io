@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '스방(study) 프로젝트 스토리보드'
+title: '오픈스터디(open-study) 프로젝트 스토리보드'
 author: chanhee.kim
 date: 2017-11-23 10:54
 tags: [project]

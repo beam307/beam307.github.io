@@ -3,7 +3,7 @@ layout: post
 title: '[jsp] EL, JSTL 정리'
 author: chanhee.kim
 date: 2017-12-03 15:11
-tags: [jsp-spring]
+tags: [jsp]
 image: /files/covers/blog.jpg
 ---
 

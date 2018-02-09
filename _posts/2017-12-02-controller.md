@@ -3,7 +3,7 @@ layout: post
 title: '[spring] 기본적인 Controller 연습'
 author: chanhee.kim
 date: 2017-12-02 13:07
-tags: [jsp-spring]
+tags: [spring]
 image: /files/covers/blog.jpg
 ---
 

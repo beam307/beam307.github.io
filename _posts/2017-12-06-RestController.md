@@ -3,7 +3,7 @@ layout: post
 title: '[Spring] RestController '
 author: chanhee.kim
 date: 2017-12-06 09:03
-tags: [Spring]
+tags: [spring]
 image: /files/covers/blog.jpg
 ---
 #### 1. Rest란??

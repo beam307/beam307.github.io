@@ -3,7 +3,7 @@ layout: post
 title: '[spring] 애너테이션 정리'
 author: chanhee.kim
 date: 2017-11-25 09:37
-tags: [jsp-spring]
+tags: [spring]
 image: /files/covers/blog.jpg
 ---
 

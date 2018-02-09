@@ -1,4 +1,4 @@
 ---
 name: node
-title: 'NODE-JS'
+title: 'Node-JS'
 ---

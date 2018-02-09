@@ -3,7 +3,7 @@ layout: post
 title: '[jsp] 페이지 모듈화'
 author: chanhee.kim
 date: 2017-12-01 10:37
-tags: [jsp-spring]
+tags: [jsp]
 image: /files/covers/blog.jpg
 ---
 

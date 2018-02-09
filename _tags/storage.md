@@ -1,4 +1,4 @@
 ---
 name: etc
-title: 'etc'
+title: 'ETC'
 ---
