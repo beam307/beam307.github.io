@@ -16,3 +16,15 @@ image: /files/covers/blog.jpg
   - 최근 사용문서, 인쇄작업대기목록, 버퍼(buffer)
 
 <img src="{{ site.baseurl }}/assets/images/stack_queue.png" alt="stack_queue">
+
+
+##### Enumeration, Iterator, ListIterator
+- 컬렉션 클래스에 저장된 데이터를 접근하는데 사용되는 인터페이스이다.
+- Enumeration는 Iterator의 구버젼이다.
+- Iterator의 접근성을 향상 시킨것이 ListIterator이다.(단방향 -> 양방향)
+
+|메서드|설명|
+|:---:|:---:|
+|||
+|||
+|||
