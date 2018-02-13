@@ -15,6 +15,8 @@ image: /files/covers/blog.jpg
 
 ##### 컬렉션 프레임워크의 핵심 인터페이스
 
+<img src="{{ site.baseurl }}/assets/images/collection.png" alt="collection">
+
 <table>
 	<tr>
 		<td>인터페이스</td>
@@ -42,3 +44,10 @@ image: /files/covers/blog.jpg
 		<td>구현클래스 : HashMap, TreeMap 등</td>
 	</tr>
 </table>
+
+
+##### 컬렉션 프레임워크의 동기화(synchronization)
+
+- 멀티쓰레드프로그래밍에서는 컬렉션 클래스에 동기화 처리가 필요하다.
+- Vector와 같은 구버젼 클래스들은 자체적으로 동기화 처리가 되어 있다.
+- ArrayList와 같은 신버젼 클래스들은 별도의 동기화 처리가 필요하다.
