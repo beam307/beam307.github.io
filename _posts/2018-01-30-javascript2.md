@@ -100,13 +100,14 @@ console.log(fruits); // ["딸기", "바나나"];
 ```
 
 - 배열 안 항목 인덱스 찾기 - indexOf()
-```javascript
+``` javascript
 var pos = fruits.indexOf("바나나");
 console.log(pos); // 1
 ```
 
 - 인덱스 위치에 있는 항목 추가 및 제거 - splice()
-```javascript
+
+``` javascript
 fruits.splice(1, 1); // 항목을 제거하는 방법
 //splice(start, deleteCount, item1, item2, ...)
 console.log(fruits); // ["딸기"]
@@ -116,7 +117,8 @@ console.log(fruits); // ["딸기", "망고"]
 ```
 
 - 배열안에 값을 하나 반환 - find()
-```javascript
+
+``` javascript
 var array1 = [5, 12, 8, 130, 44];
 
 var found = array1.find(function(element) {
@@ -128,7 +130,8 @@ console.log(found); // 12
 
 - 배열안에 값을 여러개반환 - filter()
   - 실제로는 새로운 배열을 만드는 것이다. (API 참조)
-```javascript
+
+``` javascript
 var array1 = [5, 12, 8, 130, 44];
 
 var filter = array1.filter(function(element) {
@@ -149,8 +152,9 @@ console.log(monthNames.toString()); // 'Jan,Feb,Mar,Apr'
 var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 console.log(monthNames.join(" - ")); // 'Jan - Feb - Mar - Apr'
 ```
+
 - 배열 합치기 - concat()
-```javascript
+``` javascript
 var string = ['a', 'b', 'c'],
     number = [1, 2, 3];
 
