@@ -106,7 +106,6 @@ console.log(pos); // 1
 ```
 
 - 인덱스 위치에 있는 항목 추가 및 제거 - splice()
-
 ``` javascript
 fruits.splice(1, 1); // 항목을 제거하는 방법
 //splice(start, deleteCount, item1, item2, ...)
@@ -117,7 +116,6 @@ console.log(fruits); // ["딸기", "망고"]
 ```
 
 - 배열안에 값을 하나 반환 - find()
-
 ``` javascript
 var array1 = [5, 12, 8, 130, 44];
 
@@ -130,7 +128,6 @@ console.log(found); // 12
 
 - 배열안에 값을 여러개반환 - filter()
   - 실제로는 새로운 배열을 만드는 것이다. (API 참조)
-
 ``` javascript
 var array1 = [5, 12, 8, 130, 44];
 

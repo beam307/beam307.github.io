@@ -24,3 +24,15 @@ function log(a) {
 var result = add(3,5); // result = 8;
 var result2 = log("abc"); //result2 = undefined
 ```
+
+- 함수 표현식
+
+``` javascript
+var result = add(3,5) // 함수의 호출.에러
+
+var add = function(a, b) { //익명함수. 이름을 적어도되지만 거의 생략
+  return a + b;
+}
+
+var result = add(3,5); // 함수의 호출. OK
+```
