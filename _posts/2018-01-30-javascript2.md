@@ -117,6 +117,7 @@ console.log(fruits); // ["딸기", "망고"]
 ```
 
 - 배열안에 값을 하나 반환 - find()
+
 ``` javascript
 var array1 = [5, 12, 8, 130, 44];
 
