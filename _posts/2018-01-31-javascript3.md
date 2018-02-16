@@ -36,3 +36,19 @@ var add = function(a, b) { //익명함수. 이름을 적어도되지만 거의 �
 
 var result = add(3,5); // 함수의 호출. OK
 ```
+
+##### 함수 - 호출과 arguments 객체
+- arguments객체로 함수 호출시 지정한 인자를 알 수 있다.
+``` javascript
+function findMax(a, b){
+  var max = -Infinity // 음의 무한대
+
+  console.log(arguments);
+
+  for(var i = 0; i < argumetns.length; i++ )
+    if(arguments[i] > max)
+      max = arguments[i]; // 배열처럼 접근
+
+  return max;
+}
+```

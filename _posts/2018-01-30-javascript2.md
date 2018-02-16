@@ -106,12 +106,13 @@ console.log(pos); // 1
 ```
 
 - 인덱스 위치에 있는 항목 추가 및 제거 - splice()
+
 ``` javascript
 fruits.splice(1, 1); // 항목을 제거하는 방법
 //splice(start, deleteCount, item1, item2, ...)
 console.log(fruits); // ["딸기"]
 
-fruits.splice(1, 0, "망고") // 두번째 인자가 0 일경우 삭제X
+fruits.splice(1, 0, "망고"); // 두번째 인자가 0 일경우 삭제X
 console.log(fruits); // ["딸기", "망고"]
 ```
 
@@ -128,6 +129,7 @@ console.log(found); // 12
 
 - 배열안에 값을 여러개반환 - filter()
   - 실제로는 새로운 배열을 만드는 것이다. (API 참조)
+
 ``` javascript
 var array1 = [5, 12, 8, 130, 44];
 
@@ -151,6 +153,7 @@ console.log(monthNames.join(" - ")); // 'Jan - Feb - Mar - Apr'
 ```
 
 - 배열 합치기 - concat()
+
 ``` javascript
 var string = ['a', 'b', 'c'],
     number = [1, 2, 3];
