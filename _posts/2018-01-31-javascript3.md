@@ -39,6 +39,7 @@ var result = add(3,5); // 함수의 호출. OK
 
 ##### 함수 - 호출과 arguments 객체
 - arguments객체로 함수 호출시 지정한 인자를 알 수 있다.
+
 ``` javascript
 function findMax(a, b){
   var max = -Infinity // 음의 무한대
