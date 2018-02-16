@@ -49,6 +49,7 @@ console.log(arr.length); // 7
 ```
 
 - 배열도 객체이며, new 연산자로 생성할 수 있다.
+
 ``` javascript
 var arr = new Array(1,2,3,4,5); // var arr = [1,2,3,4,5];
 var arr2 = new Array(40); // 40개의 undefined요소들이 저장된 배열
@@ -56,17 +57,20 @@ var arr2 = new Array(40); // 40개의 undefined요소들이 저장된 배열
 
 ##### 배열 - 메서드
 - 배열 만들기
+
 ```javascript
 var fruits = ['사과', '바나나'];
 ```
 
 - 인덱스로 배열 접근
+
 ```javascript
 console.log(fruits[0]);// 사과
 console.log(fruits[fruits.length - 1]); // 바나나
 ```
 
 - 배열 순환 - foreach()
+
 ```javascript
 fruits.forEach(function (item, index, array) {
   console.log(item, index);
@@ -76,30 +80,35 @@ fruits.forEach(function (item, index, array) {
 ```
 
 - 배열 끝에 항목추가 - push()
+
 ```javascript
 fruits.push('오렌지');
 console.log(fruits); // ["사과", "바나나", "오렌지"]
 ```
 
 - 배열 끝에 항목 제거 - pop()
+
 ```javascript
 fruits.pop(); // 끝에있던 '오렌지'를 제거
 console.log(fruits); // ["사과", "바나나"];
 ```
 
 - 배열 앞에 항목 제거 - shift()
+
 ```javascript
 fruits.shift(); // 제일 앞의 '사과'를 제거
 console.log(fruits); // ["바나나"];
 ```
 
 - 배열 앞에 항목 추가 - unshift()
+
 ```javascript
 fruits.unshift('딸기') // 앞에 추가
 console.log(fruits); // ["딸기", "바나나"];
 ```
 
 - 배열 안 항목 인덱스 찾기 - indexOf()
+
 ``` javascript
 var pos = fruits.indexOf("바나나");
 console.log(pos); // 1
@@ -142,12 +151,14 @@ console.log(filter); // [12, 130, 44]
 ```
 
 - 배열을 문자열로 반환(쉼표(,)로 구분) - toString()
+
 ```javascript
 var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 console.log(monthNames.toString()); // 'Jan,Feb,Mar,Apr'
 ```
 
 - 배열의 모든 요소를 연결해 하나의 문자열로 만듦 - join()
+
 ```javascript
 var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 console.log(monthNames.join(" - ")); // 'Jan - Feb - Mar - Apr'

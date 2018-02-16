@@ -45,13 +45,36 @@ function findMax(a, b){
 
   console.log(arguments);
 
-  for(var i = 0; i < argumetns.length; i++ )
+  for(var i = 0; i < arguments.length; i++ )
     if(arguments[i] > max)
       max = arguments[i]; // 배열처럼 접근
 
   return max;
 }
+
+var result = findMax(3,5);
+
+console.log(result); // 5
 ```
 
 - 함수에 선언된 매개변수의 수와 호출시 지정된 인자의 수가 달라도 된다.
 - 함수이름.length로 함수에 선언된 매개변수의 매수를 알 수 있다.
+
+##### 함수의 오버로딩
+- arguments객체를 이용하면, 자바의 오버로딩을 구현할 수있다.
+
+```javascript
+function subArr(arr, start, end) {
+  if(arguments.length == 1)
+    return arr;
+  if(arguments.length == 2)
+    return subArr(arr, start, arr.length)
+  if(arguments.length == 3)
+    return arr.slice(start, end);
+}
+
+var arr = [0,1,2,3,4,5,6,7];
+console.log(subArr(arr)); // [0, 1, 2, 3, 4, 5, 6, 7]
+console.log(subArr(arr, 3)); // [3, 4, 5, 6, 7]
+console.log(subArr(arr, 3, 5)); // [3, 4]
+```
