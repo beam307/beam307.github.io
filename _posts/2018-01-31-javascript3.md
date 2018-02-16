@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[javascript] 자바스크립트 - 함수, 클로져(closure)'
+title: '[javascript] 자바스크립트 - 함수, 클로져(closure), var VS. let VS. const'
 author: chanhee.kim
 date: 2018-01-31 15:43
 tags: [javascript]
@@ -152,3 +152,21 @@ for(var i = 0; i < 3; i++) {
 }
 ```
 - 가장 중요한 것은 클로저를 이용할 때 외부함수의 지역변수 값이여야함 : 외부함수 값을 참조하기때문에 외부함수 라이프사이클이 죽지않음)
+
+##### var vs. let vs. const
+
+var는 function-scoped이고, let, const는 block-scoped입니다.
+var는 변수 재선언 가능, let, const는 변수 재선언 불가능
+let는 변수 재할당 가능, const 는 재선언, 재할당 불가능
+
+``` javascript
+// let
+let a = 'test'
+let a = 'test2' // 재선언 불가
+a = 'test3'     // 재할당 가능
+
+// const
+const b = 'test'
+const b = 'test2' // 재선언 불가
+b = 'test3' // 재할당 불가
+```
