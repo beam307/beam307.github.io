@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[javascript] 자바스크립트 개념'
+title: '[javascript] 자바스크립트 - 변수, 호이스팅, 형변환'
 author: chanhee.kim
 date: 2018-01-29 09:21
 tags: [javascript]
