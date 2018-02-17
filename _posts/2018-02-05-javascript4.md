@@ -139,6 +139,7 @@ console.log(obj2.getName()); // "bbb"
 <br>
 
 - 함수 실행에서는 this는 전역객체
+
 ```javascript
 function sum(){
      console.log(this == window)
@@ -263,3 +264,26 @@ function Person(name, age) {
 
 ##### 상속
 - Person객체와 Manager객체를 조상자손관계로 맺어주는 방법
+
+```javascript
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+function Manager(dept, name, age) {
+  Person.call(this, name, age); // 조상 생성자를 호출
+  this.dept = dept;
+}
+
+var m = new Manager('Sales', 'aaa', 12);
+
+console.log(m.age); // 12
+console.log(m instanceof Person); // false
+
+//Manager.prototype = Person.prototype;
+Manager.prototype.__proto__ = Person.prototype;
+
+var m2 = new Manager('Sales', 'bbb', 12);
+console.log(m2 instanceof Person); // true
+```
