@@ -1,0 +1,33 @@
+---
+layout: post
+title: '[java, spring] Rest api란??'
+author: chanhee.kim
+date: 2018-02-015 14:38
+tags: [spring]
+image: /files/covers/blog.jpg
+---
+
+##### REST란?
+
+Representational State Transfer 의 약자로 소프트웨어 프로그램 개발의 아키텍처의 한 형식입니다. Roy Fielding의 박사학위 논문에서 최초로 소개되었다. 간단히 URL로 리소스에 대한 행위를 정의한다는 뜻이다.
+
+##### RESTful
+
+REST는 위 정의들을 구현하는 방식에 제약을 두지 않기 때문에 구체적인 가이드라인이 없습니다. 하지만 RESTful이라는 개념을 통해 그 가이드라인이 제시됩니다. RESTful는 REST를 REST답게 쓰기 위한 방법으로 누군가가 공식적으로 발표한 것이 아니라 여러 개발자들이 비공식적으로 의견을 제시한 것들로 명확한 정의는 없습니다. 즉 개발자마다 생각하는 RESTful의 내용이 다르다는 것이죠. 하지만 RESTful의 목적은 명확합니다. 이해하기 쉽고 사용하기 쉬운 REST API를 만드는 것입니다.
+
+|CRUD|HTTP verbs|Route|
+|:---:|:---:|:---:|
+|목록들 표시|GET|/resource|
+|하나의 내용 표시|GET|/resouce/:id|
+|생성|POST|/resource|
+|수정|PUT|/resouce/:id|
+|삭제|DELETE|/resouce/:id|
+
+예제:
+- student를 생성하는 route은 POST /students
+- id가 13인 student를 삭제하는 route은 DELETE /students/13
+
+RESTful하지 못한 예:
+- CRUD(생성,조회,수정,삭제)기능을 모두 POST로만 처리하는 API
+- Route에 resource, id 외 정보가 들어가는 경우 (/students/updateName, student 하나의 이름만 변경하는 API의 경우 PUT students/:id/name이 되어야 합니다.)
+[출처] [용어 뜻/설명] REST, RESTful API란?|작성자 azure0777
