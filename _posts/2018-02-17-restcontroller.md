@@ -149,6 +149,7 @@ public class ReplyDAOImpl implements ReplyDAO {
 }
 ```
 - mapper.xml 코드
+
 ``` xml
 <mapper namespace="org.sbang.mapper.ReplyMapper">
 	<select id="list" resultType="ReplyVO"> <!-- 댓글목록 -->
@@ -170,6 +171,7 @@ public class ReplyDAOImpl implements ReplyDAO {
 ```
 
 - reply.jsp // html은빼고 javascript부분 생성부분만 작성
+
 ``` javascript
 /* 댓글 추가 */
 $("#replyAddBtn").on("click", function() {
