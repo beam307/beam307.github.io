@@ -2,7 +2,7 @@
 layout: post
 title: '[spring] spring boot'
 author: chanhee.kim
-date: 2018-03-22 13:26
+date: 2018-03-21 13:26
 tags: [spring]
 image: /files/covers/blog.jpg
 ---
