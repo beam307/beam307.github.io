@@ -9,19 +9,19 @@ image: /files/covers/blog.jpg
 
 ##### mybatis 연동하기
 
-1. 이클립스(STS)에서 New -> Spring Starter Project 를 클릭 한 후 아래와 같이 창을뜨면 Name을 설정한다. <br>
+###### 1. 이클립스(STS)에서 New -> Spring Starter Project 를 클릭 한 후 아래와 같이 창을뜨면 Name을 설정한다. <br>
 <img src="{{ site.baseurl }}/assets/images/mybatis/mybatis1.PNG" width="606" alt="mybatis1"><br><br>
 
-2. Next를 눌러서 JDBC, Lombok, MyBatis, MySQL, Web을 메이븐을 추가한다. <br>
+###### 2. Next를 눌러서 JDBC, Lombok, MyBatis, MySQL, Web을 메이븐을 추가한다. <br>
 <img src="{{ site.baseurl }}/assets/images/mybatis/mybatis2.PNG" width="606" alt="mybatis2"><br><br>
 
-3. 설정이 완료되면 pom.xml에 들어가 아래와 같은 디펜던시 추가 <br>
+###### 3. 설정이 완료되면 pom.xml에 들어가 아래와 같은 디펜던시 추가 <br>
 <img src="{{ site.baseurl }}/assets/images/mybatis/mybatis3.PNG" width="606" alt="mybatis3"><br>
  - jstl : jsp를 쓰기 위한 라이브러리
  - mybatis : mybatis 라이브러리
  - mybatis-spring : spring jdbc연결과 관련된 라이브러리
 
- 4. application.properties 수정
+###### 4. application.properties 수정
 
  ```
  spring.mvc.view.prefix=/WEB-INF/view/
@@ -31,12 +31,11 @@ image: /files/covers/blog.jpg
  spring.datasource.username=아이디
  spring.datasource.password=비밀번호
  ```
- 
-<br>
-5. Mysql DB 테이블 생성, 칼럼 추가 및 데이터 삽입<br>
+
+###### 5. Mysql DB 테이블 생성, 칼럼 추가 및 데이터 삽입<br>
 <img src="{{ site.baseurl }}/assets/images/mybatis/mybatis4.PNG" alt="mybatis4"><br>
 
-6. TestVO 생성
+###### 6. TestVO 생성
 
 ``` java
 @Data
@@ -47,7 +46,7 @@ public class TestVO {
 }
 ```
 
-7. src/main/resources 에 mapper폴더 추가 및 Mapper.xml 파일 생성
+###### 7. src/main/resources 에 mapper폴더 추가 및 Mapper.xml 파일 생성
 
 ``` xml
 <mapper namespace="com.example.mapper.Mapper">
@@ -57,7 +56,7 @@ public class TestVO {
 </mapper>
 ```
 
-8. Mapper.java 생성
+###### 8. Mapper.java 생성
 
 ```java
 public interface Mapper {
@@ -65,7 +64,7 @@ public interface Mapper {
 }
 ```
 
-9. Test(처음설정한 이름명)Application.java 수정
+###### 9. Test(처음설정한 이름명)Application.java 수정
 
 ```java
 @SpringBootApplication
@@ -94,7 +93,7 @@ public class TestApplication {
 }
 ```
 
-10. Testcontroller.java 파일 생성
+###### 10. Testcontroller.java 파일 생성
 
 ```java
 @RestController
@@ -115,7 +114,7 @@ public class TestController {
 }
 ```
 
-11. amin.jsp 생성
+###### 11. amin.jsp 생성
 
 ```html
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -133,5 +132,5 @@ ${resultList}
 </html>
 ```
 
-12. Package Explorer <br>
+###### 12. Package Explorer <br>
 <img src="{{ site.baseurl }}/assets/images/mybatis/mybatis5.PNG" alt="mybatis5"><br>
