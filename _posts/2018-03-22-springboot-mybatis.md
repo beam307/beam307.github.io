@@ -22,6 +22,7 @@ image: /files/covers/blog.jpg
  - mybatis-spring : spring jdbc연결과 관련된 라이브러리
 
  4. application.properties 수정
+
  ```
  spring.mvc.view.prefix=/WEB-INF/view/
  spring.mvc.view.suffix=.jsp
@@ -30,11 +31,13 @@ image: /files/covers/blog.jpg
  spring.datasource.username=아이디
  spring.datasource.password=비밀번호
  ```
-
+ 
+<br>
 5. Mysql DB 테이블 생성, 칼럼 추가 및 데이터 삽입<br>
 <img src="{{ site.baseurl }}/assets/images/mybatis/mybatis4.PNG" alt="mybatis4"><br>
 
 6. TestVO 생성
+
 ``` java
 @Data
 public class TestVO {
@@ -45,7 +48,8 @@ public class TestVO {
 ```
 
 7. src/main/resources 에 mapper폴더 추가 및 Mapper.xml 파일 생성
-```xml
+
+``` xml
 <mapper namespace="com.example.mapper.Mapper">
 	<select id="test" resultType="java.util.HashMap">
 		select * from user
@@ -54,6 +58,7 @@ public class TestVO {
 ```
 
 8. Mapper.java 생성
+
 ```java
 public interface Mapper {
 	public List test() throws Exception;
@@ -61,6 +66,7 @@ public interface Mapper {
 ```
 
 9. Test(처음설정한 이름명)Application.java 수정
+
 ```java
 @SpringBootApplication
 @ComponentScan(basePackages = "com.example.controller") //컨트롤러패키지안 파일들 빈등록 설정
@@ -89,6 +95,7 @@ public class TestApplication {
 ```
 
 10. Testcontroller.java 파일 생성
+
 ```java
 @RestController
 public class TestController {
@@ -107,7 +114,9 @@ public class TestController {
 	}
 }
 ```
+
 11. amin.jsp 생성
+
 ```html
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
