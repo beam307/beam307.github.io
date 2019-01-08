@@ -35,9 +35,9 @@ $ git branch commit
 $ git checkout newImage; git commit
 ```
 
-<img src="{{ site.baseurl }}/assets/images/git/branch3.jpg"><br>
+<img src="{{ site.baseurl }}/assets/images/git/branch3.JPG"><br>
 
-브랜치변경 명령어는 : git checkout [브랜치명] 입니다. <br>
+브랜치변경 명령어는 "$git checkout [브랜치명]" 입니다. <br>
 위에 명령어를 입력하면 newImage로 현재 브랜치를 변경하고 커밋을 시켜서 위와 같은 이미지로 구성이 됩니다.
 
 
