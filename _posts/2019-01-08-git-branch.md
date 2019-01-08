@@ -20,11 +20,27 @@ image: /files/covers/blog.jpg
 ``` linux
 $ git branch newImage
 ```
-<img src="{{ site.baseurl }}/assets/images/git/branch1.PNG">
-->
-<img src="{{ site.baseurl }}/assets/images/git/branch2.PNG">
+<img src="{{ site.baseurl }}/assets/images/git/branch1.jpg">
 
 이렇게 현재 브랜치(master)에서 새로운 브랜치가 새로생기며 커밋C1를 가르키게 됩니다.
+
+``` linux
+$ git branch commit
+```
+<img src="{{ site.baseurl }}/assets/images/git/branch2.jpg"><br>
+여기서 commit을 할 경우 별표(*)가 있었던 현재 브랜치(master)가 움직이게 됩니다.<br>
+이제 newImage를 커밋시켜볼까요?
+
+```linux
+$ git checkout newImage; git commit
+```
+
+<img src="{{ site.baseurl }}/assets/images/git/branch3.jpg"><br>
+
+브랜치변경 명령어는 : git checkout [브랜치명] 입니다. <br>
+위에 명령어를 입력하면 newImage로 현재 브랜치를 변경하고 커밋을 시켜서 위와 같은 이미지로 구성이 됩니다.
+
+
 <br>
 참조사이트
 <a href="https://learngitbranching.js.org/">https://learngitbranching.js.org/</a>
