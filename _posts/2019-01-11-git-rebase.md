@@ -2,7 +2,7 @@
 layout: post
 title: '[git] git - rebase 로 병합하기'
 author: chanhee.kim
-date: 2019-01-09 15:35
+date: 2019-01-11 16:02
 tags: [git]
 image: /files/covers/blog.jpg
 ---
