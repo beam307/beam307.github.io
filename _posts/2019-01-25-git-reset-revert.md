@@ -15,7 +15,7 @@ git 에서 변경한 내용을 되돌리는 방법은 2가지가 있습니다.<b
 
 #### git - reset 예제
 git reset은 브랜치를 예전의 커밋을 가리키도록 이동하는 방식으로 변경 내용을 되돌립니다. 즉 "히스토리를 고쳐쓴다" 라고 말할 수 있습니다.
-<img src="{{ site.baseurl }}/assets/images/git/commit2.JPG"><br>
+<img src="{{ site.baseurl }}/assets/images/git/commit2.PNG"><br>
 ``` linux
 $ git reset HEAD~1
 ```
@@ -25,7 +25,7 @@ $ git reset HEAD~1
 #### git - revert 예제
 로컬 브랜치의 경우 reset을 쓸 수 있습니다만 다른사람이 작업하는 리모트 브랜치에는 쓸 수 없습니다.
 이 되돌린 내용을 다른 사람들과 공유하기 위해서는, git revert를 써야합니다.
-<img src="{{ site.baseurl }}/assets/images/git/commit2.JPG"><br>
+<img src="{{ site.baseurl }}/assets/images/git/commit2.PNG"><br>
 ``` linux
 $ git revert HEAD
 ```
