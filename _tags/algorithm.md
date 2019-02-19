@@ -1,0 +1,4 @@
+---
+name: algorithm
+title: 'Algorithm'
+---
