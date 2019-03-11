@@ -47,7 +47,9 @@ image: /files/covers/blog.jpg
 병합정렬은 원소 개수가 1 또는 0이 될 때까지 두 부분으로 쪼개고 쪼개서 자른 순서의 역순으로 크기를 비교해 병합해 나간다. 성능은 아래의 퀵 정렬보다 전반적으로 뒤떨어지고, <strong class="red">데이터 크기만한 메모리가 더 필요하지만 stable sort(같은 값의 앞뒤가 순서가 바뀌지않음)이 최대 장점이다.</strong>
 * 시간복잡도 : O(n*logN)
 * 병합정렬 소스
+
 ``` java
+
 import java.util.Arrays;
 
 public class Main {
@@ -111,6 +113,7 @@ public class Main {
 	}
 
 }
+
 
 ```
 
