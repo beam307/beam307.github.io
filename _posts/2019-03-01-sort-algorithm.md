@@ -12,7 +12,6 @@ image: /files/covers/blog.jpg
 * 선택정렬
 * 삽입정렬
 * 병합정렬
-* 힙정렬
 * 퀵정렬
 * 팀정렬
 * 기수정렬
@@ -118,3 +117,5 @@ public class Main {
 ```
 
 다음편에서는 힙정렬, 퀵정렬, 팀정렬, 기수정렬을 알아보겠다.
+##### 다음편바로가기
+<a href="https://beam307.github.io/2019/03/01/sort-algorithm2/">[알고리즘] 정렬알고리즘 종류와 시간복잡도(BigO) 2부</a>
