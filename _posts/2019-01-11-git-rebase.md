@@ -33,6 +33,7 @@ master 브랜치가 bugFix의 부모에 있었기 때문에 단순히 master 브
 #### git merge vs rebase
 - git-merge : Join two or more development histories together.
 - git-rebase : Forward-port local commits to the updated upstream head.
+<br>
 git 매뉴얼에는 위와 같이 정의가 되어있고 git 분산 버전 관리 시스템을 보면 git merge는 바로 합치기, git rebase는 브랜치 이력 재정렬하기 입니다. git-merge 페이지와 git-rebase페이지의 사진들을 보면 한눈에 이해가 가능합니다.
 
 <br>
