@@ -8,7 +8,7 @@ image: /files/covers/blog.jpg
 ---
 
 <a href="https://beam307.github.io/2019/03/23/solid/" target="_blank">솔리드원칙</a><br>
-<a href="https://beam307.github.io/2019/03/23/microservices-architecture/" target="_blank">마이크로서비스아키텍처</a><br>
+<a href="https://beam307.github.io/2019/04/03/microservices-architecture/" target="_blank">마이크로서비스아키텍처</a><br>
 
 ##### 도메인 주도 설계란?
 에릭 에반스의 DDD(Domain-Driven Design)에서 가장 기억하고 싶은 내용은 ‘하나의 팀에서 하나의 언어로’라는 부분이다. 개발(Development)을 끌고 가는 중심에는 해당 업무 즉, 도메인 프로그램 개발의 대상이 되는 업무 영역이 있다<br>
