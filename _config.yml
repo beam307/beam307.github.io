@@ -4,7 +4,7 @@ description: |
   JAVA, JSP, SPRING, Git, DB, VUE
   연말을 연말답게 보내고 싶다면 개발자가 되지 말았어야지!
 baseurl: ''
-url: 'http://tech.kakao.com'
+url: 'https://beam307.github.io/'
 timezone: Asia/Seoul
 
 repository: beam307/beam307.github.io

@@ -216,7 +216,7 @@ public class JsonParser {
 }
 ```
 
-###### 5. 넘어온 Json파일 USER객체에 담기
+###### 5. JsonParser.java 만들기(넘어온 Json파일 USER객체에 담기)
 
 <br><br>
 
