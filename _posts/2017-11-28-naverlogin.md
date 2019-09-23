@@ -1,32 +1,34 @@
 ---
 layout: post
-title: '[spring] 네이버 로그인 구현'
+title: '[spring, java] 네이버 로그인 구현'
 author: chanhee.kim
 date: 2017-11-28 17:37
 tags: [spring, project]
 image: /files/covers/blog.jpg
 ---
 
-### 네이버로그인 구현
+### SPRING(자바)로 네이버로그인 구현
 
 <img src="{{ site.baseurl }}/assets/images/developer.PNG" alt="naverlogin">
 
 ###### 1. 네이버 Developers에서 서비스 URL, Callback URL 설정
 
-```
-<dependency>
+<br><br>
+
+``` xml
+<dependency> <!-- oauth 라이브러리 -->
 	<groupId>com.github.scribejava</groupId>
 	<artifactId>scribejava-core</artifactId>
 	<version>3.3.0</version>
 </dependency>
 
-<dependency>
+<dependency>  <!-- 유틸 라이브러리 -->
 	<groupId>commons-lang</groupId>
 	<artifactId>commons-lang</artifactId>
 	<version>2.3</version>
 </dependency>
 
-<dependency>
+<dependency>  <!-- json 라이브러리 -->
 	<groupId>com.googlecode.json-simple</groupId>
 	<artifactId>json-simple</artifactId>
 	<version>1.1.1</version>
@@ -35,6 +37,7 @@ image: /files/covers/blog.jpg
 
 ###### 2. pom.xml 추가
 
+<br><br>
 
 ``` java
 @RequestMapping(value = "/naverLogin", method = RequestMethod.GET)
@@ -42,10 +45,10 @@ image: /files/covers/blog.jpg
 		/* 네아로 인증 URL을 생성하기 위하여 getAuthorizationUrl을 호출 */
 		String naverAuthUrl = naverLoginBO.getAuthorizationUrl(session);
 
-		return new ModelAndView("login/naverLogin", "url", naverAuthUrl);
-	}
+	return new ModelAndView("login/naverLogin", "url", naverAuthUrl);
+}
 
-	@RequestMapping(value = "/callback", method = RequestMethod.GET)
+@RequestMapping(value = "/callback", method = RequestMethod.GET)
 	public String callback(@RequestParam String code, @RequestParam String state, HttpSession session, Model model, UserVO vo) throws Exception {
 		/* 네아로 인증이 성공적으로 완료되면 code 파라미터가 전달되며 이를 통해 access token을 발급 */
 		logger.info("naver login............");
@@ -62,17 +65,17 @@ image: /files/covers/blog.jpg
 			session.setAttribute("login", vo);
 		}
 
-		return "/login/callback";
-	}
+	return "/login/callback";
+}
 
 ```
 
 ###### 3. LoginController.java 설정
 
+<br><br>
 
 ``` java
-NaverLoginApi.java
----------------
+// NaverLoginApi.java
 import com.github.scribejava.core.builder.api.DefaultApi20;
 
 public class NaverLoginApi extends DefaultApi20 {
@@ -98,8 +101,8 @@ public class NaverLoginApi extends DefaultApi20 {
 	}
 }
 
-naverLoginBO.java
--------------
+
+// naverLoginBO.java
 import java.io.IOException;
 import java.util.UUID;
 
@@ -180,9 +183,12 @@ public class NaverLoginBO {
 }
 ```
 
-###### 4. 네이버로그인 관련 설정 파일 만들기
+###### 4. 네이버 로그인 관련 설정 파일 만들기
+
+<br><br>
 
 ```java
+// JsonParser.java
 public class JsonParser {
 	JSONParser jsonParser = new JSONParser();
 
@@ -210,9 +216,12 @@ public class JsonParser {
 }
 ```
 
-###### 5. JsonParser.java 만들기 (넘어온 Json파일 USER객체에 담기)
+###### 5. 넘어온 Json파일 USER객체에 담기
 
-```java
+<br><br>
+
+``` html
+<!-- naverLogin.jsp -->
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -222,7 +231,7 @@ public class JsonParser {
 </head>
 <body>
 	<script>
-		self.location = '${url}'; //
+		self.location = '${url}'; // https://nid.naver.com/oauth2.0/authorize
 	</script>
 </body>
 
@@ -231,7 +240,10 @@ public class JsonParser {
 
 ###### 6. naverLogin.jsp 만들기 (간단히 https://nid.naver.com/oauth2.0/authorize 로 이동하게 함 )
 
-```java
+<br><br>
+
+``` html
+<!-- callback.jsp -->
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
@@ -247,6 +259,8 @@ public class JsonParser {
 </html>
 ```
 ###### 7. callback.jsp 만들기 (콜백 후 메인으로 가기)
+
+<br><br>
 
 ---
 
