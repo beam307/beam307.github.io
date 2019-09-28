@@ -1126,17 +1126,6 @@ body.page-template {
 
 }
 
-#forkme {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 149px;
-    height: 149px;
-    z-index: 998;
-    background: url(../images/forkme_kakao_tr.png) no-repeat;
-    margin-right: -45px;
-}
-
 #post-content.page {
     border-bottom: none;
 }

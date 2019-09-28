@@ -15,7 +15,7 @@ image: /files/covers/blog.jpg
 - 큐(Queue) : FIFO구조. 제일 먼저 저장한 것을 제일 먼저 꺼내게 된다.
   - 최근 사용문서, 인쇄작업대기목록, 버퍼(buffer)
 
-<img src="{{ site.baseurl }}/assets/images/stack_queue.png" alt="stack_queue">
+<img src="{{ site.baseurl }}/assets/images/collection/stack_queue.png" alt="stack_queue">
 
 
 ##### Enumeration, Iterator, ListIterator

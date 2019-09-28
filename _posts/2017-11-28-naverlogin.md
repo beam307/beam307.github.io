@@ -9,7 +9,7 @@ image: /files/covers/blog.jpg
 
 ### SPRING(자바)로 네이버로그인 구현
 
-<img src="{{ site.baseurl }}/assets/images/developer.PNG" alt="naverlogin">
+<img src="{{ site.baseurl }}/assets/images/spring/developer.PNG" alt="naverlogin">
 
 ###### 1. 네이버 Developers에서 서비스 URL, Callback URL 설정
 

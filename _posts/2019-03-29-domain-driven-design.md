@@ -27,7 +27,7 @@ image: /files/covers/blog.jpg
 
 이러한 어려움에도 불구하고 고객과 개발자가 잘 소통해야만 원하는 결과를 만들 수 있다. 반대로 이들이 서로 소통에 실패한다면, 원하는 결과는 나오지 않고 서로 잘못된 일만 반목하게 될 것이다.
 <br>
-<img src="{{ site.baseurl }}/assets/images/ddd.jpg">
+<img src="{{ site.baseurl }}/assets/images/etc/ddd.jpg">
 <br>
 에릭 에반스는 프로젝트 팀이 지향할 목표지점을 분명하게 도식화했다. 위 그림은 DDD 34쪽의 그림을 간략하게 요약한 것이다. Ubiquitous Language(이하 UL)는 고객과 개발자 양쪽에서 통용되는 어휘를 의미한다. 처음에는 교집합이 없이 나누어져 있다고 하더라도, 프로젝트를 진행하면서 교집합을 충분히 늘려가야 한다.  
 

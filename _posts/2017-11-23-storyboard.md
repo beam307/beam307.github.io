@@ -8,10 +8,10 @@ image: /files/covers/blog.jpg
 ---
 
 ### 메인페이지
-<img src="{{ site.baseurl }}/assets/images/main.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/blog/main.PNG" alt="main">
 ### 마이페이지
-<img src="{{ site.baseurl }}/assets/images/mypage.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/blog/mypage.PNG" alt="main">
 ### 리스트페이지
-<img src="{{ site.baseurl }}/assets/images/listpage.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/blog/listpage.PNG" alt="main">
 ### 상세페이지
-<img src="{{ site.baseurl }}/assets/images/detailpage.PNG" alt="main">
+<img src="{{ site.baseurl }}/assets/images/blog/detailpage.PNG" alt="main">

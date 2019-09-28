@@ -15,7 +15,7 @@ image: /files/covers/blog.jpg
 
 ##### 컬렉션 프레임워크의 핵심 인터페이스
 
-<img src="{{ site.baseurl }}/assets/images/collection.png" alt="collection">
+<img src="{{ site.baseurl }}/assets/images/collection/collection.png" alt="collection">
 
 <table>
 	<tr>

@@ -98,4 +98,4 @@ public class UserController {
 
 ##### spring MVC 구조
 
-<img src="{{ site.baseurl }}/assets/images/mvc.jpg" alt="spring_mvc_module">
+<img src="{{ site.baseurl }}/assets/images/spring/mvc.jpg" alt="spring_mvc_module">
