@@ -46,7 +46,6 @@ b, strong, optgroup {
 }
 
 a, a:link, a:visited, a:active, a:hover {
-    color: #505050;
     text-decoration: none;
 }
 
@@ -939,7 +938,6 @@ body.tag-template #navbar {
 
 #post-content a {
     text-decoration: underline;
-    text-decoration-color: #e6e6e6;
 }
 
 #post-content > *:first-child {
