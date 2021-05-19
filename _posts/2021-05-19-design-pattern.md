@@ -2,7 +2,7 @@
 layout: post
 title: '[디자인패턴1] singleton(싱글톤), strategy(전략), Factory Method(팩토리 메소드) 패턴'
 author: chanhee.kim
-date: 2020-05-19 13:06
+date: 2021-05-19 13:06
 tags: [etc]
 image: /files/covers/blog.jpg
 ---
