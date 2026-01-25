@@ -1,7 +1,7 @@
-title: 찬희의 기술 블로그
+title: 찬희의 Frontend Notes
 email: beam307@naver.com
 description: |
-  JAVA, JSP, SPRING, Git, DB, VUE, ANGULAR
+  React · Next.js · Angular · TypeScript · Web fundamentals
   연말을 연말답게 보내고 싶다면 개발자가 되지 말았어야지!
 baseurl: ''
 url: 'https://beam307.github.io'
@@ -45,7 +45,7 @@ defaults:
     values:
       layout: tag
 
-exclude: [README.md, Gemfile, Gemfile.lock]
+exclude: [README.md, Gemfile]
 
 keep_files: [assets, files]
 github: [metadata]

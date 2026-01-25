@@ -6,7 +6,7 @@
         <span class="sr-only">Toggle Search Form</span>
     </button>
     <a id="logo" href="/">
-        <span class="sr-only">김찬희 블로그</span>
+        <span class="sr-only">김찬희의 프론트엔드 개발자 개발 블로그</span>
     </a>
     <div id="search">
         <input id="search-input" type="search" placeholder="Search..." value="" />
@@ -15,7 +15,7 @@
 
     <ul id="menu" class="nav">
         <li class="{% if page.url != '/tags/' %} active {% endif %}"><a href="{{ base_path }}/">Blog</a></li>
-        <li class="{% if page.url == '/tags/' %} active {% endif %}"><a href="{{ base_path }}/tags/">Category</a></li>
+        <li class="{% if page.url == '/tags/' %} active {% endif %}"><a href="{{ base_path }}/tags/">Tags</a></li>
     </ul>
 </div>
 <!-- Script pointing to jekyll-search.js -->
