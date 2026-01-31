@@ -4,7 +4,7 @@
 {% if page.layout == 'post' or page.layout == 'page' %}
 {% assign meta_title = page.title %}
 {% assign meta_author = page.author | default: site.author %}
-{% assign meta_description = page.excerpt | strip_html | truncatewords: 75 %}
+{% assign meta_description = page.description | default: page.excerpt | strip_html | truncatewords: 75 %}
 {% assign meta_url = site.url | append: site.baseurl | append: page.url %}
 {% assign meta_image = page.image | default: site.image %}
 {% assign meta_type = 'article' %}
