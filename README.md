@@ -1,2 +1,2 @@
-beam307.github.io
+찬희의 Frontend Notes
 ==============

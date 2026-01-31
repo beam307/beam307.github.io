@@ -16,6 +16,8 @@
     <ul id="menu" class="nav">
         <li class="{% if page.url != '/tags/' %} active {% endif %}"><a href="{{ base_path }}/">Blog</a></li>
         <li class="{% if page.url == '/tags/' %} active {% endif %}"><a href="{{ base_path }}/tags/">Tags</a></li>
+        <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">About</a></li>
+        <li class="{% if page.url == '/contact/' %} active {% endif %}"><a href="{{ base_path }}/contact/">Contact</a></li>
     </ul>
 </div>
 <!-- Script pointing to jekyll-search.js -->
