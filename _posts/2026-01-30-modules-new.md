@@ -2,12 +2,11 @@
 layout: post
 title: '[Node.js & JavaScript] 모듈 시스템 총정리 2026 (CommonJS, ESM, UMD)'
 author: chanhee.kim
-date: 2017-11-16 18:38
+date: 2026-01-30 18:38
 tags: [node, javascript]
 image: /files/covers/blog.jpg
 description: "최신 자바스크립트 모듈 시스템의 표준인 ES Modules(ESM)와 CommonJS, UMD의 특징과 사용법, 차이점을 완벽하게 정리했습니다."
 keywords: "javascript module, commonjs, esm, es6 module, umd, node.js require, import export, 자바스크립트 모듈 시스템"
-last_modified_at: 2026-01-31
 ---
 
 자바스크립트 모듈 시스템의 진화는 언어의 성장 과정을 보여줍니다. 
