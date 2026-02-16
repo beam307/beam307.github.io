@@ -1,17 +1,71 @@
 ---
 layout: post
-title: '[spring, java] 네이버 로그인 구현'
+title: '[Spring] OAuth 네이버 로그인 구현과 최신 OAuth2 Client 사용법'
 author: chanhee.kim
 date: 2017-11-28 17:37
-tags: [spring, project]
+updated_at: 2026-02-16
+tags: [spring, oauth, oauth2, naver-login, social-login, authentication, project]
 image: /files/covers/blog.jpg
+description: "Spring에서 네이버 OAuth 로그인을 구현하는 방법을 정리합니다. 2017년 구현 예시와 2026 기준 Spring Security OAuth2 Client 사용법을 함께 제공합니다."
 ---
+
+## 1. 현재(2026) 기준 빠른 가이드
+
+### 1) 의존성 (Spring Boot + OAuth2 Client)
+```xml
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-oauth2-client</artifactId>
+</dependency>
+```
+
+### 2) 설정 (application.yml)
+```yaml
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          naver:
+            client-id: YOUR_CLIENT_ID
+            client-secret: YOUR_CLIENT_SECRET
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+            authorization-grant-type: authorization_code
+            scope: name,email
+            client-name: Naver
+        provider:
+          naver:
+            authorization-uri: https://nid.naver.com/oauth2.0/authorize
+            token-uri: https://nid.naver.com/oauth2.0/token
+            user-info-uri: https://openapi.naver.com/v1/nid/me
+            user-name-attribute: response
+```
+
+### 3) 간단한 컨트롤러 예시
+```java
+@Controller
+public class LoginController {
+  @GetMapping("/login")
+  public String login() {
+    return "login";
+  }
+}
+```
+
+### 4) 보안 주의사항
+- Client Secret은 환경 변수 또는 암호화된 설정 파일에 보관
+- 세션 고정 공격 방지(Spring Security의 기본 설정 활용)
+- TODO: CSRF 토큰 및 state 파라미터 검증 확인 필요
+
+---
+
+## 2. 2017 기준 구현 흐름 (Scribe 기반)
 
 ### SPRING(자바)로 네이버로그인 구현
 
 <img src="{{ site.baseurl }}/assets/images/spring/developer.PNG" alt="naverlogin">
 
-###### 1. 네이버 Developers에서 서비스 URL, Callback URL 설정
+#### 1. 네이버 Developers에서 서비스 URL, Callback URL 설정
 
 <br><br>
 
@@ -35,7 +89,7 @@ image: /files/covers/blog.jpg
 </dependency>
 ```
 
-###### 2. pom.xml 추가
+#### 2. pom.xml 추가
 
 <br><br>
 
@@ -70,7 +124,7 @@ image: /files/covers/blog.jpg
 
 ```
 
-###### 3. LoginController.java 설정
+#### 3. LoginController.java 설정
 
 <br><br>
 
@@ -183,7 +237,7 @@ public class NaverLoginBO {
 }
 ```
 
-###### 4. 네이버 로그인 관련 설정 파일 만들기
+#### 4. 네이버 로그인 관련 설정 파일 만들기
 
 <br><br>
 
@@ -216,7 +270,7 @@ public class JsonParser {
 }
 ```
 
-###### 5. JsonParser.java 만들기(넘어온 Json파일 USER객체에 담기)
+#### 5. JsonParser.java 만들기(넘어온 Json파일 USER객체에 담기)
 
 <br><br>
 
@@ -238,7 +292,7 @@ public class JsonParser {
 </html>
 ```
 
-###### 6. naverLogin.jsp 만들기 (간단히 https://nid.naver.com/oauth2.0/authorize 로 이동하게 함 )
+#### 6. naverLogin.jsp 만들기 (간단히 https://nid.naver.com/oauth2.0/authorize 로 이동하게 함 )
 
 <br><br>
 
@@ -258,11 +312,12 @@ public class JsonParser {
 
 </html>
 ```
-###### 7. callback.jsp 만들기 (콜백 후 메인으로 가기)
+#### 7. callback.jsp 만들기 (콜백 후 메인으로 가기)
 
 <br><br>
 
 ---
 
 참고사이트 :
-<a href="https://github.com/Blackseed/NaverLoginTutorial/wiki/Spring-MVC-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%84%A4%EC%9D%B4%EB%B2%84%EC%95%84%EC%9D%B4%EB%94%94%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0" target = "_blenk" >사이트 이동</a>
+<a href="https://github.com/Blackseed/NaverLoginTutorial/wiki/Spring-MVC-%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EB%84%A4%EC%9D%B4%EB%B2%84%EC%95%84%EC%9D%B4%EB%94%94%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0" target="_blank" rel="noopener">사이트 이동</a>
+

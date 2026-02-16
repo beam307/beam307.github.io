@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[java] 컬렉션 프레임워크 - Stack & Queue'
+title: '[Java] 컬렉션 프레임워크 - Stack & Queue'
 author: chanhee.kim
 date: 2018-01-12 15:47
-tags: [java]
+updated_at: 2026-02-16
+tags: [java, collection, stack, queue, data-structure, lifo, fifo]
 image: /files/covers/blog.jpg
+description: "Java Stack과 Queue 자료구조의 특징과 사용법을 정리합니다."
 ---
 
 ##### 스택과 큐

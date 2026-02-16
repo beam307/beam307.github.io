@@ -1,13 +1,15 @@
 ---
 layout: post
-title: '[spring] 기본적인 Controller 연습'
+title: '[Spring MVC] Controller 리턴 타입과 데이터 전달 방법 정리'
 author: chanhee.kim
 date: 2017-12-02 13:07
-tags: [spring]
+updated_at: 2026-02-16
+tags: [spring, spring-mvc, controller, rest-api, json, model, redirect]
 image: /files/covers/blog.jpg
+description: "Spring MVC Controller의 void/String 리턴 타입, Model/RedirectAttributes를 통한 데이터 전달, JSON 응답 방법을 정리합니다."
 ---
 
-#### 1. void 리턴 타입의 경우
+## 1. void 리턴 타입의 경우
 
 ``` java
 @Controller
@@ -30,7 +32,7 @@ public class SampleController {
 
 ---
 
-#### 2. String이 리턴 타입인 경우
+## 2. String이 리턴 타입인 경우
 
 ``` java
 @Controller
@@ -48,7 +50,7 @@ public class SampleController {
 
 ---
 
-#### 3. 데이터 전달 하는 방법
+## 3. 데이터 전달 하는 방법
 
 ``` java
 @Controller
@@ -72,7 +74,7 @@ model.addAttribute를 통해서 뷰까지 객체등을 전달 할 수 있다.
 
 ---
 
-#### 4. 리다이렉트하는 경우
+## 4. 리다이렉트하는 경우
 
 ```java
 @Controller
@@ -96,7 +98,7 @@ public class SampleController {
 
 ---
 
-#### 5. JSON 데이터를 이용하는 경우
+## 5. JSON 데이터를 이용하는 경우
 
 JSON 데이터를 사용할 경우에는 아래와 같이 pom.xml 에 jackson-databind 를 추가해야한다.
 ```
@@ -127,3 +129,33 @@ public class SampleController {
 리턴되는 값은 View 를 통해서 출력되지 않고 HTTP Response Body 에 직접 쓰여지게 된다.<br>
 이때 쓰여지기 전에 리턴되는 데이터타입에 따라 MessageConverter에 의해 변환이 이뤄지고 쓰여진다. <br>
 주로 JSON 반환할때 사용된다.
+
+---
+
+## 6. 현재(2026) 기준 참고 사항
+
+### @RestController 사용 (권장)
+```java
+@RestController
+@RequestMapping("/api/users")
+public class UserApiController {
+  
+  @GetMapping("/{id}")
+  public ResponseEntity<UserVO> getUser(@PathVariable Long id) {
+    UserVO user = userService.findById(id);
+    return ResponseEntity.ok(user);
+  }
+
+  @PostMapping
+  public ResponseEntity<UserVO> createUser(@RequestBody UserVO user) {
+    UserVO created = userService.create(user);
+    return ResponseEntity.status(HttpStatus.CREATED).body(created);
+  }
+}
+```
+
+### 주요 차이점
+- `@RestController` = `@Controller` + `@ResponseBody`
+- `ResponseEntity`로 HTTP 상태 코드와 헤더를 함께 제어
+- Jackson은 기본 내장되어 있어 별도 설정 불필요(Spring Boot)
+- TODO: API 버저닝, 에러 핸들링(@ControllerAdvice) 전략 수립 필요

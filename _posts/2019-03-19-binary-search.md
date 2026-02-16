@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[알고리즘] 이진탐색(binary-search)'
+title: '[알고리즘] 이진 탐색 (Binary Search) 원리와 구현'
 author: chanhee.kim
 date: 2019-03-19 14:26
-tags: [algorithm]
+updated_at: 2026-02-16
+tags: [algorithm, binary-search, search, data-structure, divide-and-conquer]
 image: /files/covers/blog.jpg
+description: "이진 탐색(Binary Search) 알고리즘의 원리와 구현 방법을 정리합니다."
 ---
 
 

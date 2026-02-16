@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[spring] spring boot - mybatis 연동'
+title: '[Spring Boot] MyBatis 연동 설정과 기본 사용법'
 author: chanhee.kim
 date: 2018-03-22 14:33
-tags: [spring]
+updated_at: 2026-02-16
+tags: [spring, spring-boot, mybatis, database, orm, configuration]
 image: /files/covers/blog.jpg
+description: "Spring Boot에서 MyBatis를 연동하는 설정 방법과 기본 사용법을 정리합니다."
 ---
 
 ##### mybatis 연동하기

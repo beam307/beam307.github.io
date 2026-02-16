@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[알고리즘] 정렬알고리즘 종류와 시간복잡도(BigO) 1부'
+title: '[알고리즘] 정렬 알고리즘 종류와 시간복잡도 1부 (버블, 선택, 삽입)'
 author: chanhee.kim
 date: 2019-03-01 14:01
-tags: [algorithm]
+updated_at: 2026-02-16
+tags: [algorithm, sorting, big-o, time-complexity, data-structure]
 image: /files/covers/blog.jpg
+description: "정렬 알고리즘의 종류와 시간복잡도(Big-O)를 정리합니다. 1부에서는 버블, 선택, 삽입 정렬을 다룹니다."
 ---
 
 #### 정렬 알고리즘 종류

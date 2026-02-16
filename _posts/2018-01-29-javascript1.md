@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[javascript] 자바스크립트 - 변수, 호이스팅, 형변환'
+title: '[JavaScript] 기초 문법 - 변수, 호이스팅, 형변환'
 author: chanhee.kim
 date: 2018-01-29 09:21
-tags: [javascript]
+updated_at: 2026-02-16
+tags: [javascript, variable, hoisting, type-conversion, fundamentals]
 image: /files/covers/blog.jpg
+description: "JavaScript 기초 문법인 변수 선언, 호이스팅, 형변환을 정리합니다."
 ---
 
 ##### 자바스크립트란?

@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[javascript] 자바스크립트 - 필수 개념'
+title: '[JavaScript] 필수 개념 정리 - 실행 컨텍스트, 스코프 체인'
 author: chanhee.kim
 date: 2018-02-06 14:38
-tags: [javascript]
+updated_at: 2026-02-16
+tags: [javascript, execution-context, scope, scope-chain, fundamentals]
 image: /files/covers/blog.jpg
+description: "JavaScript 실행 컨텍스트와 스코프 체인 등 필수 개념을 정리합니다."
 ---
 
 참고 블로그 : <a href="http://jinbroing.tistory.com/183?category=687108"> 블로그 이동</a>

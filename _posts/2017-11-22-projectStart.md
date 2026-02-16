@@ -1,13 +1,17 @@
 ---
 layout: post
-title: '오픈스터디(open-study) 프로젝트 시작'
+title: '오픈스터디 프로젝트 기획 노트: 요구사항과 화면 구성'
 author: chanhee.kim
 date: 2017-11-22 9:43
-tags: [project]
+updated_at: 2026-02-16
+tags: [project, product-planning, requirements, ux, storyboard, marketplace, frontend]
 image: /files/covers/blog.jpg
+description: "오픈스터디 서비스의 초기 요구사항과 화면 구성 아이디어를 정리한 기획 노트입니다. 경쟁 서비스 조사와 페이지 구성안을 중심으로 정리했습니다."
 ---
 
-###. 컨텐츠 및 페이지 회의
+## 1. 컨텐츠 및 페이지 회의
+
+### 경쟁 서비스 조사 요약
 
 * 기존사이트 자료조사
 1. 스터디서치
@@ -30,7 +34,7 @@ image: /files/covers/blog.jpg
 
 ---
 
-### 프로젝트 스토리보드 초안
+## 2. 프로젝트 스토리보드 초안
 1.메인
 - 로그인, 회원가입, 마이페이지 -> 구글 / 네이버/ 자체(이메일로그인?)
 - 공지사항, 마이페이지, 로그아웃, 문의사항(1:1)

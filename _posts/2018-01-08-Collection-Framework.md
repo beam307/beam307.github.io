@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[java] 컬렉션 프레임워크'
+title: '[Java] 컬렉션 프레임워크: List/Set/Map 핵심 개념'
 author: chanhee.kim
 date: 2018-01-08 09:03
-tags: [java]
+updated_at: 2026-02-16
+tags: [java, collection, list, set, map, data-structure, framework]
 image: /files/covers/blog.jpg
+description: "Java 컬렉션 프레임워크의 List/Set/Map 인터페이스와 구현 클래스를 정리하고, 2026 기준 Stream API 활용법을 함께 설명합니다."
 ---
 
 ##### 컬렉션프레임워크란??

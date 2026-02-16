@@ -1,13 +1,15 @@
 ---
 layout: post
-title: '[jsp] 페이지 모듈화'
+title: '[JSP] 페이지 모듈화: include 액션태그와 디렉티브 비교'
 author: chanhee.kim
 date: 2017-12-01 10:37
-tags: [jsp]
+updated_at: 2026-02-16
+tags: [jsp, java, include, modularization, layout, frontend]
 image: /files/covers/blog.jpg
+description: "JSP의 두 가지 include 방식(액션태그/디렉티브)을 비교 정리하고, 2026 기준 최신 템플릿 엔진과 비교합니다."
 ---
 
-#### 1. <jsp:include> 액션태그
+## 1. `<jsp:include>` 액션태그
 
 ```
 <jsp:inlude page="페이지" flush="true" />
@@ -20,7 +22,7 @@ flush : 지정한 JSP페이지 실행하기전에 출력버퍼를 플러시할�
 
 ---
 
-#### 2. include 디렉티브
+## 2. include 디렉티브
 
 ```
 <%@include file="페이지" %>
@@ -36,7 +38,7 @@ include 디렉티브를 사용하면, JSP파일을 자바파일로 변환하기 
 
 ---
 
-#### 3. <jsp:include> 액션태그 와 include 디렉티브의 비교
+## 3. `<jsp:include>` 액션태그 와 include 디렉티브의 비교
 
  | 비교항목 | <jsp:include> 액션태그 | include 디렉티브|
  |:---:|:---:|:---:|
@@ -44,3 +46,37 @@ include 디렉티브를 사용하면, JSP파일을 자바파일로 변환하기 
  |기능|별도의파일로 요청처리 흐름 이동|현재 파일에 삽입 시킴|
  |데이터 전달방법|request 기본객체나 <jsp:param>을 <br> 이용한 파라미터 전달| 페이지내의 변수를 선언한 후, 변수에 값 저장|
  |용도|화면의 레이아웃|공통으로 사용되는 변수를 지정하는 코드나 <br>저작권 같은 문장을 포함|
+
+---
+
+## 4. 현재(2026) 기준 참고 사항
+
+### 최신 템플릿 엔진 사용 권장
+
+#### Thymeleaf (Spring 표준)
+```html
+<!-- layout.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header"></head>
+<body>
+  <div th:replace="fragments/nav :: nav"></div>
+  <main th:insert="${content}"></main>
+  <div th:replace="fragments/footer :: footer"></div>
+</body>
+</html>
+```
+
+#### React/Next.js (모던 프론트엔드)
+```jsx
+// Layout.jsx
+export default function Layout({ children }) {
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
+  );
+}
+```

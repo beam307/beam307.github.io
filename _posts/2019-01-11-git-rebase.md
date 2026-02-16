@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[git] git - rebase 로 병합하기'
+title: '[Git] Rebase 명령어와 커밋 히스토리 정리'
 author: chanhee.kim
 date: 2019-01-11 16:02
-tags: [git]
+updated_at: 2026-02-16
+tags: [git, rebase, version-control, git-command, history]
 image: /files/covers/blog.jpg
+description: "Git rebase 명령어와 커밋 히스토리 정리 방법을 설명합니다."
 ---
 
 #### git - rebase

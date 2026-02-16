@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[git] git - commit에 대해서'
+title: '[Git] Commit 명령어와 커밋 메시지 작성법'
 author: chanhee.kim
 date: 2019-01-03 16:26
-tags: [git]
+updated_at: 2026-02-16
+tags: [git, commit, version-control, git-command, best-practice]
 image: /files/covers/blog.jpg
+description: "Git commit 명령어와 효과적인 커밋 메시지 작성 방법을 정리합니다."
 ---
 
 #### git - commit

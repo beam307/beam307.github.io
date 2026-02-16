@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[spring] 스프링 MVC 개념'
+title: '[Spring] MVC 패턴과 아키텍처 핵심 개념 정리'
 author: chanhee.kim
 date: 2018-01-02 10:54
-tags: [spring]
+updated_at: 2026-02-16
+tags: [spring, spring-mvc, mvc, architecture, ioc, di, design-pattern]
 image: /files/covers/blog.jpg
+description: "Spring MVC의 등장 배경과 IoC/DI 개념, DAO/Service/Controller 계층 구조를 정리하고, 2026 기준 Spring Boot 아키텍처와 비교합니다."
 ---
 
 ##### Spring의 등장 배경

@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[알고리즘] 정렬알고리즘 종류와 시간복잡도(BigO) 2부'
+title: '[알고리즘] 정렬 알고리즘 종류와 시간복잡도 2부 (병합, 퀵, 힙 정렬)'
 author: chanhee.kim
 date: 2019-03-13 17:12
-tags: [algorithm]
+updated_at: 2026-02-16
+tags: [algorithm, sorting, merge-sort, quick-sort, heap-sort, big-o]
 image: /files/covers/blog.jpg
+description: "고급 정렬 알고리즘(병합, 퀵, 힙 정렬)의 시간복잡도와 구현 방법을 정리합니다."
 ---
 
 ##### 전편바로가기

@@ -1,11 +1,14 @@
 ---
 layout: post
-title: '[spring] spring boot'
+title: '[Spring Boot] 기본 개념과 Spring MVC 비교'
 author: chanhee.kim
 date: 2018-03-21 13:26
-tags: [spring]
+updated_at: 2026-02-16
+tags: [spring, spring-boot, configuration, bean, ioc, di, annotation]
 image: /files/covers/blog.jpg
+description: "Spring Boot의 기본 개념과 Bean/IoC/DI를 정리하고, 2026 기준 Spring Boot 3.x 설정과 권장 사항을 함께 설명합니다."
 ---
+
 
 ##### Spring Boot VS Spring(SpringMVC)
 - Spring Boot는 spring프레임웤을 사용하는 프로젝트를 간편하게 셋업할 수 있는 스프링 프레임웤의 서브 프로젝트이다.

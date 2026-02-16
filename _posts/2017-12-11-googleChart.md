@@ -1,11 +1,13 @@
 ---
 layout: post
-title: '[JavaScript] 구글차트(google Charts)로 대시보드 라인 차트 구현하기 (7일 방문·가입자)'
+title: '[JavaScript] 구글차트(Google Charts)로 대시보드 라인 차트 구현하기 (7일 방문·가입자)'
 author: chanhee.kim
 date: 2017-12-11 11:03
-tags: [javascript, project, google-charts, data-visualization, dashboard]
+updated_at: 2026-02-16
+tags: [javascript, google-charts, data-visualization, dashboard, chart, analytics, frontend]
 image: /files/covers/blog.jpg
-description: "Google Charts(구글 차트)로 7일 방문자/가입자 라인 차트를 그리는 방법을 정리합니다. 로더 로딩, DataTable 구성, date 축 포맷, 듀얼 축, 반응형 리사이즈, fetch 기반 데이터 바인딩까지."
+description: "Google Charts로 7일 방문자/가입자 라인 차트를 그리는 방법을 정리합니다. DataTable 구성, date 축 포맷, 듀얼 축, 반응형 리사이즈, fetch 기반 데이터 바인딩까지 실무 패턴 중심으로 다룹니다."
+permalink: /2017/12/11/googleChart/
 ---
 
 ## Google Charts(구글 차트)란?

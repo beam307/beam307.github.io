@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '마이크로서비스아키텍처(Microservices Architecture)'
+title: '[MSA] 마이크로서비스 아키텍처 개념과 설계 원칙'
 author: chanhee.kim
 date: 2019-04-03 14:38
-tags: [etc]
+updated_at: 2026-02-16
+tags: [msa, microservices, architecture, distributed-system, cloud, design-pattern]
 image: /files/covers/blog.jpg
+description: "마이크로서비스 아키텍처(MSA)의 핵심 개념과 설계 원칙, 모놀리식과의 비교를 정리합니다."
 ---
 
 <a href="https://beam307.github.io/2019/03/23/solid/" target="_blank">솔리드원칙</a><br>

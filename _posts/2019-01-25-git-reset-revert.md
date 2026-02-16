@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[git] git - reset, revert'
+title: '[Git] Reset과 Revert 차이와 사용법'
 author: chanhee.kim
 date: 2019-01-25 10:27
-tags: [git]
+updated_at: 2026-02-16
+tags: [git, reset, revert, version-control, git-command, undo]
 image: /files/covers/blog.jpg
+description: "Git reset과 revert의 차이점과 각각의 사용법을 정리합니다."
 ---
 
 #### git - 작업 되돌리기

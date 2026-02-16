@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[javascript] 자바스크립트 - 객체, prototype, this, 상속'
+title: '[JavaScript] 객체, Prototype, this, 프로토타입 상속'
 author: chanhee.kim
 date: 2018-02-05 16:11
-tags: [javascript]
+updated_at: 2026-02-16
+tags: [javascript, object, prototype, this, inheritance, oop]
 image: /files/covers/blog.jpg
+description: "JavaScript 객체, 프로토타입, this 키워드, 프로토타입 상속을 정리합니다."
 ---
 
 ##### 객체 생성 방법

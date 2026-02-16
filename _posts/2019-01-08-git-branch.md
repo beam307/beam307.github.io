@@ -1,10 +1,12 @@
 ---
 layout: post
-title: '[git] git - branch'
+title: '[Git] Branch 생성, 전환, 삭제 명령어 정리'
 author: chanhee.kim
 date: 2019-01-08 10:20
-tags: [git]
+updated_at: 2026-02-16
+tags: [git, branch, version-control, git-command, workflow]
 image: /files/covers/blog.jpg
+description: "Git 브랜치 생성, 전환, 삭제 명령어와 브랜치 관리 전략을 정리합니다."
 ---
 
 #### git - branch
