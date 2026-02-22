@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 'Capacitor vs React Native 작동 원리 비교 (2026-02-22 기준)'
+title: 'Capacitor vs React Native 작동 원리 비교'
 author: chanhee.kim
 date: 2026-02-22 10:30
 updated_at: 2026-02-22
-tags: [react-native, capacitor, react, javascript]
+tags: [react, react-native, capacitor, mobile, javascript]
 image: /files/covers/blog.jpg
 description: "Capacitor와 React Native의 작동 원리를 비교합니다. WebView+네이티브 브리지 구조와 React Native New Architecture(Fabric, TurboModules, JSI)의 차이, 그리고 JS-네이티브 비동기 통신 메커니즘까지 정리했습니다."
-keywords: "capacitor, react native, capacitor react native 비교, capacitor 작동원리, react native 작동원리, js native 비동기 통신, fabric, turbomodules, jsi, 모바일 앱 개발"
+keywords: "Capacitor vs React Native 작동 원리 비교, react, react native, capacitor, 모바일 앱 개발, 자바스크립트, 개발 블로그"
 ---
 
 저는 실무에서 `Capacitor`를 주로 사용해 왔고, `React Native`도 한 번 실제 프로젝트에 적용해봤습니다.

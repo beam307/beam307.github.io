@@ -8,6 +8,7 @@
 {% assign meta_url = site.url | append: site.baseurl | append: page.url %}
 {% assign meta_image = page.image | default: site.image %}
 {% assign meta_type = 'article' %}
+{% assign meta_modified = page.updated_at | default: page.date %}
 {% else %}
 {% assign meta_title = site.title %}
 {% assign meta_author = site.author %}
@@ -15,7 +16,9 @@
 {% assign meta_url = site.url %}
 {% assign meta_image = site.image %}
 {% assign meta_type = 'website' %}
+{% assign meta_modified = page.date %}
 {% endif %}
+{% assign meta_keywords = page.keywords | default: site.keywords | default: '프론트엔드, React, Next.js, Angular, TypeScript, JavaScript, Web Development, 웹개발, 프로그래밍, 개발블로그' %}
 {% unless meta_image contains '://' %}
 {% assign meta_image = meta_image | prepend: site.url %}
 {% endunless %}
