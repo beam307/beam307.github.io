@@ -522,25 +522,6 @@ for small screen(<720px):
     background-size: 20px 20px;
 }
 
-#share-kakaostory {
-    background: url(../images/pc/share_story.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-facebook {
-    background: url(../images/pc/share_face.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-twitter {
-    background: url(../images/pc/share_twit.png) no-repeat;
-    background-size: 20px 20px;
-}
-
-#share-google {
-    background: url(../images/pc/share_goo.png) no-repeat;
-    background-size: 20px 20px;
-}
 
 #header,
 #cover,

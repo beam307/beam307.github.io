@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2017-12-02 13:07
 updated_at: 2026-02-16
 tags: [spring, rest-api, json, backend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-07.jpg
 description: "Spring MVC Controller의 void/String 리턴 타입, Model/RedirectAttributes를 통한 데이터 전달, JSON 응답 방법을 정리합니다."
 keywords: "Controller 리턴 타입과 데이터 전달 방법 정리, spring, rest api, json, 백엔드, 개발 블로그"
 ---

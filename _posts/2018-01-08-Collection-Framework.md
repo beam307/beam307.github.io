@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2018-01-08 09:03
 updated_at: 2026-02-16
 tags: [java, data-structure]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-10.jpg
 description: "Java 컬렉션 프레임워크의 List/Set/Map 인터페이스와 구현 클래스를 정리하고, 2026 기준 Stream API 활용법을 함께 설명합니다."
 keywords: "컬렉션 프레임워크: List/Set/Map 핵심 개념, java, 자료구조, 개발 블로그"
 ---

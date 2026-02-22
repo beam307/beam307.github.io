@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2017-11-22 9:43
 updated_at: 2026-02-16
 tags: [frontend, web-development]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-11.jpg
 description: "오픈스터디 서비스의 초기 요구사항과 화면 구성 아이디어를 정리한 기획 노트입니다. 경쟁 서비스 조사와 페이지 구성안을 중심으로 정리했습니다."
 keywords: "오픈스터디 프로젝트 기획 노트: 요구사항과 화면 구성, 프론트엔드, 웹 개발, 개발 블로그"
 ---

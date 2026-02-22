@@ -6,7 +6,7 @@ keywords: "React useEffect 실수 TOP3 정리 + useEffectEvent로 의존성/스�
 author: chanhee.kim
 date: 2026-02-08 16:33
 tags: [react, frontend, web-development]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-12.jpg
 ---
 
 ## useEffect 한 줄 정의: “외부 시스템과 동기화”

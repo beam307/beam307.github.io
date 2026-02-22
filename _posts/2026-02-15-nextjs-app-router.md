@@ -6,7 +6,7 @@ keywords: "App Router에서 서버/클라 경계 설계 실수 TOP 7 (실무 패
 author: chanhee.kim
 date: 2026-02-15 11:03
 tags: [nextjs, react, frontend, web-development]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-code-03.jpg
 ---
 
 ## 왜 “서버/클라 경계”가 App Router의 핵심인가?

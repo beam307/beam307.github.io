@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2019-01-25 10:27
 updated_at: 2026-02-16
 tags: [git]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-09.jpg
 description: "Git reset과 revert의 차이점과 각각의 사용법을 정리합니다."
 keywords: "Reset과 Revert 차이와 사용법, git, 개발 블로그"
 ---

@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2018-02-06 14:38
 updated_at: 2026-02-16
 tags: [javascript, frontend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-code-03.jpg
 description: "JavaScript 실행 컨텍스트와 스코프 체인 등 필수 개념을 정리합니다."
 keywords: "필수 개념 정리 - 실행 컨텍스트, 스코프 체인, 자바스크립트, 프론트엔드, 개발 블로그"
 ---

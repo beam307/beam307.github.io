@@ -4,7 +4,7 @@ title: '[React] react-error-boundary 완벽 정리: ErrorBoundary는 만능이 �
 author: chanhee.kim
 date: 2026-02-07 14:20
 tags: [react, frontend, web-development]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-08.jpg
 description: "React ErrorBoundary(Error Boundary) 사용법부터 한계(이벤트/비동기/SSR 에러 미포착)까지. 렌더링 에러를 안전하게 처리하는 실전 적용 전략과 예시 코드로 정리합니다."
 keywords: "react-error-boundary 완벽 정리: ErrorBoundary는 만능이 아니다 (언제 써야 할까?), react, 프론트엔드, 웹 개발, 개발 블로그"
 ---

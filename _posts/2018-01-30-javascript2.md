@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2018-01-30 11:59
 updated_at: 2026-02-16
 tags: [javascript, frontend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-code-03.jpg
 description: "JavaScript 연산자와 배열 기초 문법을 정리합니다."
 keywords: "기초 문법 - 연산자, 배열, 자바스크립트, 프론트엔드, 개발 블로그"
 ---

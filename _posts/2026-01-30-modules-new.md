@@ -4,7 +4,7 @@ title: '[Node.js & JavaScript] 모듈 시스템 총정리 2026 (CommonJS, ESM, U
 author: chanhee.kim
 date: 2026-01-30 18:38
 tags: [javascript, nodejs, frontend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-12.jpg
 description: "최신 자바스크립트 모듈 시스템의 표준인 ES Modules(ESM)와 CommonJS, UMD의 특징과 사용법, 차이점을 완벽하게 정리했습니다."
 keywords: "모듈 시스템 총정리 2026 (CommonJS, ESM, UMD), 자바스크립트, node.js, 프론트엔드, 개발 블로그"
 ---

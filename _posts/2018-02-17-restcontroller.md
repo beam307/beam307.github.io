@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2018-02-17 16:54
 updated_at: 2026-02-16
 tags: [spring, rest-api, json, backend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-code-02.jpg
 description: "Spring @RestController의 실전 사용법과 예외 처리 방법을 정리합니다."
 keywords: "@RestController 실전 사용법과 예외 처리, spring, rest api, json, 백엔드, 개발 블로그"
 ---

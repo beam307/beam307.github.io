@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2019-01-11 16:02
 updated_at: 2026-02-16
 tags: [git]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-04.jpg
 description: "Git rebase 명령어와 커밋 히스토리 정리 방법을 설명합니다."
 keywords: "Rebase 명령어와 커밋 히스토리 정리, git, 개발 블로그"
 ---

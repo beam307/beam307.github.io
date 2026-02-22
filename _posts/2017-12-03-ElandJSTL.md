@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2017-12-03 15:11
 updated_at: 2026-02-16
 tags: [java, jsp, frontend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-05.jpg
 description: "JSP의 EL과 JSTL을 정리하고, 2026 기준 최신 템플릿 엔진과 비교합니다. 코드 간소화와 가독성 향상 팁을 제공합니다."
 keywords: "EL(표현 언어)와 JSTL(표준 태그 라이브러리) 핵심 정리, java, jsp, 프론트엔드, 개발 블로그"
 ---

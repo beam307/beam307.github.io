@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2017-11-25 09:37
 updated_at: 2026-02-16
 tags: [java, spring, backend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-code-02.jpg
 description: "Spring MVC에서 자주 쓰는 애너테이션을 목적별로 정리하고, 2026 기준 권장 사용 패턴과 주의점을 함께 정리합니다."
 keywords: "MVC 애너테이션 핵심 정리와 최신 사용 패턴, java, spring, 백엔드, 개발 블로그"
 ---

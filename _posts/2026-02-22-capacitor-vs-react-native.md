@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2026-02-22 10:30
 updated_at: 2026-02-22
 tags: [react, react-native, capacitor, mobile, javascript]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-09.jpg
 description: "Capacitor와 React Native의 작동 원리를 비교합니다. WebView+네이티브 브리지 구조와 React Native New Architecture(Fabric, TurboModules, JSI)의 차이, 그리고 JS-네이티브 비동기 통신 메커니즘까지 정리했습니다."
 keywords: "Capacitor vs React Native 작동 원리 비교, react, react native, capacitor, 모바일 앱 개발, 자바스크립트, 개발 블로그"
 ---

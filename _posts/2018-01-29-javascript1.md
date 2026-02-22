@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2018-01-29 09:21
 updated_at: 2026-02-16
 tags: [javascript, frontend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-12.jpg
 description: "JavaScript 기초 문법인 변수 선언, 호이스팅, 형변환을 정리합니다."
 keywords: "기초 문법 - 변수, 호이스팅, 형변환, 자바스크립트, 프론트엔드, 개발 블로그"
 ---

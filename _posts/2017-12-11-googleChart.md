@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2017-12-11 11:03
 updated_at: 2026-02-17
 tags: [javascript, frontend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-08.jpg
 description: "Google Chart JavaScript 라이브러리를 사용하여 반응형 라인 차트를 구현하는 완벽 가이드입니다. 최근 7일 방문자/가입자 데이터를 시각화하며, DataTable 구성, 듀얼 Y축, 커스텀 툴팁, fetch 데이터 바인딩 등 실무 예제를 다룹니다."
 keywords: "Google Chart JavaScript: 구글 차트로 반응형 대시보드 라인 차트 만들기 (튜토리얼), 자바스크립트, 프론트엔드, 개발 블로그"
 ---

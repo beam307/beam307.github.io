@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2019-03-13 17:12
 updated_at: 2026-02-16
 tags: [algorithm]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-10.jpg
 description: "고급 정렬 알고리즘(병합, 퀵, 힙 정렬)의 시간복잡도와 구현 방법을 정리합니다."
 keywords: "정렬 알고리즘 종류와 시간복잡도 2부 (병합, 퀵, 힙 정렬), 알고리즘, 개발 블로그"
 ---

@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2019-03-19 14:26
 updated_at: 2026-02-16
 tags: [algorithm, data-structure]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-10.jpg
 description: "이진 탐색(Binary Search) 알고리즘의 원리와 구현 방법을 정리합니다."
 keywords: "이진 탐색 (Binary Search) 원리와 구현, 알고리즘, 자료구조, 개발 블로그"
 ---

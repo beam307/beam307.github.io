@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2021-05-19 13:06
 updated_at: 2026-02-16
 tags: [java, oop, design-pattern]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-07.jpg
 description: "실무에서 자주 사용하는 Singleton, Strategy, Factory Method 디자인 패턴을 예제와 함께 정리합니다."
 keywords: "Singleton, Strategy, Factory Method 패턴 핵심 정리, java, 객체지향 프로그래밍, 디자인 패턴, 개발 블로그"
 ---

@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2018-03-21 13:26
 updated_at: 2026-02-16
 tags: [spring-boot, spring, backend]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-05.jpg
 description: "Spring Boot의 기본 개념과 Bean/IoC/DI를 정리하고, 2026 기준 Spring Boot 3.x 설정과 권장 사항을 함께 설명합니다."
 keywords: "기본 개념과 Spring MVC 비교, spring boot, spring, 백엔드, 개발 블로그"
 ---

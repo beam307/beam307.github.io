@@ -5,7 +5,7 @@ author: chanhee.kim
 date: 2019-01-08 10:20
 updated_at: 2026-02-16
 tags: [git]
-image: /files/covers/blog.jpg
+image: /files/covers/cover-dev-10.jpg
 description: "Git 브랜치 생성, 전환, 삭제 명령어와 브랜치 관리 전략을 정리합니다."
 keywords: "Branch 생성, 전환, 삭제 명령어 정리, git, 개발 블로그"
 ---
