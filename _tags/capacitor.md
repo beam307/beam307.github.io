@@ -1,0 +1,4 @@
+---
+name: capacitor
+title: 'Capacitor'
+---
