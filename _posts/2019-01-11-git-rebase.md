@@ -4,9 +4,10 @@ title: '[Git] Rebase 명령어와 커밋 히스토리 정리'
 author: chanhee.kim
 date: 2019-01-11 16:02
 updated_at: 2026-02-16
-tags: [git, rebase, version-control, git-command, history]
+tags: [git]
 image: /files/covers/blog.jpg
 description: "Git rebase 명령어와 커밋 히스토리 정리 방법을 설명합니다."
+keywords: "Rebase 명령어와 커밋 히스토리 정리, git, 개발 블로그"
 ---
 
 #### git - rebase

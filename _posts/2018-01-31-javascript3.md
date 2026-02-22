@@ -4,9 +4,10 @@ title: '[JavaScript] 함수, 클로저(Closure), var/let/const 차이'
 author: chanhee.kim
 date: 2018-01-31 15:43
 updated_at: 2026-02-16
-tags: [javascript, function, closure, var, let, const, scope]
+tags: [javascript, frontend]
 image: /files/covers/blog.jpg
 description: "JavaScript 함수, 클로저 개념과 var/let/const 변수 선언 방식의 차이를 정리합니다."
+keywords: "함수, 클로저(Closure), var/let/const 차이, 자바스크립트, 프론트엔드, 개발 블로그"
 ---
 
 ##### 함수

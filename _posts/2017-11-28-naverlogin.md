@@ -4,9 +4,10 @@ title: '[Spring] OAuth 네이버 로그인 구현과 최신 OAuth2 Client 사용
 author: chanhee.kim
 date: 2017-11-28 17:37
 updated_at: 2026-02-16
-tags: [spring, oauth, oauth2, naver-login, social-login, authentication, project]
+tags: [spring, authentication, backend, web-development]
 image: /files/covers/blog.jpg
 description: "Spring에서 네이버 OAuth 로그인을 구현하는 방법을 정리합니다. 2017년 구현 예시와 2026 기준 Spring Security OAuth2 Client 사용법을 함께 제공합니다."
+keywords: "OAuth 네이버 로그인 구현과 최신 OAuth2 Client 사용법, spring, 인증, 백엔드, 웹 개발, 개발 블로그"
 ---
 
 ## 1. 현재(2026) 기준 빠른 가이드

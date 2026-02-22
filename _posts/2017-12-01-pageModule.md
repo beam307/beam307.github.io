@@ -4,9 +4,10 @@ title: '[JSP] 페이지 모듈화: include 액션태그와 디렉티브 비교'
 author: chanhee.kim
 date: 2017-12-01 10:37
 updated_at: 2026-02-16
-tags: [jsp, java, include, modularization, layout, frontend]
+tags: [java, jsp, frontend]
 image: /files/covers/blog.jpg
 description: "JSP의 두 가지 include 방식(액션태그/디렉티브)을 비교 정리하고, 2026 기준 최신 템플릿 엔진과 비교합니다."
+keywords: "페이지 모듈화: include 액션태그와 디렉티브 비교, java, jsp, 프론트엔드, 개발 블로그"
 ---
 
 ## 1. `<jsp:include>` 액션태그

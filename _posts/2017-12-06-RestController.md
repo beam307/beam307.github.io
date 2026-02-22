@@ -4,9 +4,10 @@ title: '[Spring] @RestController와 REST API 설계 핵심 정리'
 author: chanhee.kim
 date: 2017-12-06 09:03
 updated_at: 2026-02-16
-tags: [spring, rest-api, restcontroller, json, http, api-design]
+tags: [spring, rest-api, json, http, backend]
 image: /files/covers/blog.jpg
 description: "Spring의 @RestController로 REST API를 구현하는 방법을 정리하고, 2026 기준 ResponseEntity와 API 설계 권장 패턴을 함께 제공합니다."
+keywords: "@RestController와 REST API 설계 핵심 정리, spring, rest api, json, http, 백엔드, 개발 블로그"
 ---
 
 ## 1. REST란?

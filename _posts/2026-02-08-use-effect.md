@@ -2,9 +2,10 @@
 layout: post
 title: "React useEffect 실수 TOP3 정리 + useEffectEvent로 의존성/스테일 클로저 해결하기"
 description: "React useEffect를 실무에서 헷갈리게 만드는 대표 실수 3가지(불필요한 Effect, 의존성 배열 오류, cleanup 누락)와 개선 방법을 정리합니다. 추가로 React useEffectEvent를 활용해 최신 state/props를 안전하게 읽는 패턴까지 예제로 설명합니다."
+keywords: "React useEffect 실수 TOP3 정리 + useEffectEvent로 의존성/스테일 클로저 해결하기, react, 프론트엔드, 웹 개발, 개발 블로그"
 author: chanhee.kim
 date: 2026-02-08 16:33
-tags: [react, web, frontend, useeffect]
+tags: [react, frontend, web-development]
 image: /files/covers/blog.jpg
 ---
 

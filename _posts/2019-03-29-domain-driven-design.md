@@ -4,9 +4,10 @@ title: '[DDD] 도메인 주도 설계 (Domain-Driven Design) 핵심 개념'
 author: chanhee.kim
 date: 2019-03-29 12:59
 updated_at: 2026-02-16
-tags: [ddd, domain-driven-design, software-architecture, design-pattern, clean-architecture]
+tags: [design-pattern, ddd, backend, web-development]
 image: /files/covers/blog.jpg
 description: "도메인 주도 설계(DDD)의 핵심 개념과 전략적/전술적 설계 패턴을 정리합니다."
+keywords: "도메인 주도 설계 (Domain-Driven Design) 핵심 개념, 디자인 패턴, domain driven design, 백엔드, 웹 개발, 개발 블로그"
 ---
 
 <a href="https://beam307.github.io/2019/03/23/solid/" target="_blank">솔리드원칙</a><br>

@@ -2,9 +2,10 @@
 layout: post
 title: "[Next.js] App Router에서 서버/클라 경계 설계 실수 TOP 7 (실무 패턴 + 샘플)"
 description: "Next.js App Router에서 Server/Client 경계를 잘못 잡아 생기는 대표 실수 7가지를 정리합니다. use client 남발, 데이터 패칭 위치, Provider 전염, Server Actions, env 노출, hydration mismatch까지 실무 패턴과 샘플로 해결합니다."
+keywords: "App Router에서 서버/클라 경계 설계 실수 TOP 7 (실무 패턴 + 샘플), next.js, react, 프론트엔드, 웹 개발, 개발 블로그"
 author: chanhee.kim
 date: 2026-02-15 11:03
-tags: [nextjs, react, app-router, server-components, client-components, performance, architecture]
+tags: [nextjs, react, frontend, web-development]
 image: /files/covers/blog.jpg
 ---
 

@@ -4,9 +4,10 @@ title: '오픈스터디 프로젝트 스토리보드: 주요 화면 구성'
 author: chanhee.kim
 date: 2017-11-23 10:54
 updated_at: 2026-02-16
-tags: [project, storyboard, ux, ui, wireframe, product-planning]
+tags: [frontend, web-development]
 image: /files/covers/blog.jpg
 description: "오픈스터디 서비스의 메인/마이페이지/리스트/상세 화면 스토리보드를 정리했습니다. 초기 화면 구성과 흐름을 빠르게 파악할 수 있습니다."
+keywords: "오픈스터디 프로젝트 스토리보드: 주요 화면 구성, 프론트엔드, 웹 개발, 개발 블로그"
 ---
 
 ## 1. 메인페이지

@@ -1,4 +1,0 @@
----
-name: etc
-title: 'ETC'
----

@@ -4,9 +4,10 @@ title: '[HTTP] HTTP 상태 코드 완벽 정리와 REST API 활용법'
 author: chanhee.kim
 date: 2017-12-07 11:03
 updated_at: 2026-02-16
-tags: [http, status-code, rest-api, error-handling, web, backend]
+tags: [rest-api, http, backend, web-development]
 image: /files/covers/blog.jpg
 description: "HTTP 상태 코드를 1xx~5xx까지 분류별로 정리하고, REST API에서 적절한 상태 코드 선택 기준을 제공합니다."
+keywords: "HTTP 상태 코드 완벽 정리와 REST API 활용법, rest api, http, 백엔드, 웹 개발, 개발 블로그"
 ---
 
 ## 1. 100번대 : 정보성 응답(Informational)
